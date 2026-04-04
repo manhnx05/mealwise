@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 // src/api/base44Client.ts
 
 // =========================================================================
@@ -112,27 +113,52 @@ export const base44 = {
         });
       },
       InvokeLLM: async (args: any) => {
-        // Giả lập API trả về công thức JSON cho tính năng tạo meal plan tự động
-        return {
-          meals: [
-            { day: "Thứ 2", breakfast: "Phở bò", lunch: "Cơm sườn", dinner: "Canh chua cá lóc" },
-            { day: "Thứ 3", breakfast: "Xôi gấc", lunch: "Bún chả", dinner: "Thịt luộc cà pháo" },
-            { day: "Thứ 4", breakfast: "Bánh mì pate", lunch: "Cơm gà xối mỡ", dinner: "Salad cá ngừ" },
-            { day: "Thứ 5", breakfast: "Miến gà", lunch: "Mì ý xào thịt băm", dinner: "Đậu nhồi thịt" },
-            { day: "Thứ 6", breakfast: "Bánh bao", lunch: "Phở cuốn", dinner: "Cá kho tộ" },
-            { day: "Thứ 7", breakfast: "Cháo sườn", lunch: "Bánh xèo", dinner: "Gà rán" },
-            { day: "Chủ nhật", breakfast: "Bánh cuốn", lunch: "Lẩu thái hải sản", dinner: "Trái cây nhẹ nhàng" }
-          ],
-          shopping_list: [
-            { name: "Thịt bò", amount: "500g" },
-            { name: "Thịt lợn", amount: "1.5 kg" },
-            { name: "Gà ta", amount: "1 con" },
-            { name: "Hải sản các loại", amount: "2 kg" },
-            { name: "Rau củ lẩu + Salad", amount: "2 kg" },
-            { name: "Gia vị + hành tỏi", amount: "Theo nhu cầu" }
-          ],
-          total_cost: 1250000
+        const apiKey = import.meta.env.VITE_API_GEMINI_KEY;
+        if (!apiKey) {
+          throw new Error("Không tìm thấy VITE_API_GEMINI_KEY trong file .env");
+        }
+
+        const prompt = args.prompt || "";
+        const schema = args.response_json_schema;
+
+        const body: any = {
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {}
         };
+        
+        if (schema) {
+          body.generationConfig.responseMimeType = "application/json";
+          body.generationConfig.responseSchema = schema;
+        }
+
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body)
+        });
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(`Lỗi từ Gemini API: ${errorText}`);
+        }
+
+        const data = await response.json();
+        const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        
+        if (!textContent) {
+          throw new Error("Gemini không trả về kết quả hợp lệ");
+        }
+
+        if (schema) {
+          try {
+            return typeof textContent === 'string' ? JSON.parse(textContent) : textContent;
+          } catch (e) {
+            console.error("Không thể parse JSON từ Gemini", textContent);
+            throw new Error("Dữ liệu Gemini trả về không đúng định dạng JSON");
+          }
+        }
+
+        return textContent;
       }
     }
   }
