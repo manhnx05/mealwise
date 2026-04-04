@@ -118,7 +118,7 @@ const SidebarProvider = React.forwardRef<HTMLDivElement, SidebarProviderProps>(
               "--sidebar-width": SIDEBAR_WIDTH,
               "--sidebar-width-icon": SIDEBAR_WIDTH_ICON,
               ...style
-            }
+            } as React.CSSProperties
           }
           className={cn(
             "group/sidebar-wrapper flex min-h-svh w-full has-[[data-variant=inset]]:bg-sidebar",
@@ -592,7 +592,7 @@ const SidebarMenuBadge = React.forwardRef<HTMLDivElement, React.HTMLAttributes<H
 ))
 SidebarMenuBadge.displayName = "SidebarMenuBadge"
 
-const SidebarMenuSkeleton = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+const SidebarMenuSkeleton = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement> & { showIcon?: boolean }>(
   ({ className, showIcon = false, ...props }, ref) => {
     // Random width between 50 to 90%.
     const width = React.useMemo(() => {

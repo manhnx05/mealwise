@@ -46,11 +46,13 @@ const ChartContainer = React.forwardRef<any, any>(({ id, className, children, co
 })
 ChartContainer.displayName = "Chart"
 
+type ChartConfig = Record<string, { theme?: Record<string, string>; color?: string; label?: string; icon?: React.ComponentType }>
+
 const ChartStyle = ({
   id,
   config
-}) => {
-  const colorConfig = Object.entries(config).filter(([, config]) => config.theme || config.color)
+}: { id: string; config: ChartConfig }) => {
+  const colorConfig = Object.entries(config).filter(([, cfg]) => cfg.theme || cfg.color)
 
   if (!colorConfig.length) {
     return null
@@ -182,7 +184,7 @@ const ChartTooltipContent = React.forwardRef<any, any>((
                           {
                             "--color-bg": indicatorColor,
                             "--color-border": indicatorColor
-                          }
+                          } as React.CSSProperties
                         } />
                     )
                   )}

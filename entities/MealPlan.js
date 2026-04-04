@@ -1,4 +1,4 @@
-{
+export default {
   "name": "MealPlan",
   "type": "object",
   "properties": {

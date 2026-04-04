@@ -71,7 +71,7 @@ export default function RecipeDetail() {
             className="w-full h-full object-cover"
           />
           {recipe.category && (
-            <Badge className="absolute top-4 left-4 bg-card/90 text-foreground backdrop-blur-sm border-0">
+            <Badge variant="secondary" className="absolute top-4 left-4 bg-card/90 text-foreground backdrop-blur-sm border-0">
               {categoryLabels[recipe.category]}
             </Badge>
           )}

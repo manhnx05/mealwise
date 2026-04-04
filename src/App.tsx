@@ -14,6 +14,7 @@ import MealPlanner from './pages/MealPlanner';
 import Healthy from './pages/Healthy';
 import Community from './pages/Community';
 import AddRecipe from './pages/AddRecipe';
+import SeedData from './pages/SeedData';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -50,6 +51,7 @@ const AuthenticatedApp = () => {
         <Route path="/healthy" element={<Healthy />} />
         <Route path="/community" element={<Community />} />
         <Route path="/add-recipe" element={<AddRecipe />} />
+        <Route path="/seed-data" element={<SeedData />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

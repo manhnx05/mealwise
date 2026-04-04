@@ -11,6 +11,7 @@ const navLinks = [
   { label: 'Thực đơn tuần', path: '/meal-planner' },
   { label: 'Sức khỏe', path: '/healthy' },
   { label: 'Cộng đồng', path: '/community' },
+  { label: '🌱 Seed Data', path: '/seed-data' },
 ];
 
 export default function Navbar() {

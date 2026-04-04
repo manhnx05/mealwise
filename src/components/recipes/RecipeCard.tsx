@@ -37,7 +37,7 @@ export default function RecipeCard({ recipe, index = 0 }) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
             {recipe.category && (
-              <Badge className="absolute top-3 left-3 bg-card/90 text-foreground backdrop-blur-sm border-0 text-xs">
+              <Badge variant="secondary" className="absolute top-3 left-3 bg-card/90 text-foreground backdrop-blur-sm border-0 text-xs">
                 {categoryLabels[recipe.category] || recipe.category}
               </Badge>
             )}

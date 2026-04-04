@@ -24,7 +24,7 @@ export default function Community() {
   });
 
   const createMutation = useMutation({
-    mutationFn: (data) => base44.entities.CommunityPost.create(data),
+    mutationFn: (data: any) => base44.entities.CommunityPost.create(data),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['community-posts'] });
       setShowCreate(false);
@@ -74,7 +74,7 @@ export default function Community() {
             </Button>
           </DialogTrigger>
           <DialogContent className="max-w-lg">
-            <DialogHeader>
+            <DialogHeader className="">
               <DialogTitle>Chia sẻ công thức mới</DialogTitle>
             </DialogHeader>
             <div className="space-y-4 mt-4">

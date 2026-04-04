@@ -1,4 +1,4 @@
-{
+export default {
   "name": "CommunityPost",
   "type": "object",
   "properties": {

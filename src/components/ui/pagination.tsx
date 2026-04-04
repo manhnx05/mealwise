@@ -29,12 +29,17 @@ const PaginationItem = React.forwardRef<any, any>(({ className, ...props }, ref)
 ))
 PaginationItem.displayName = "PaginationItem"
 
+type PaginationLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
+  isActive?: boolean
+  size?: "default" | "sm" | "lg" | "icon"
+}
+
 const PaginationLink = ({
   className,
   isActive,
   size = "icon",
   ...props
-}) => (
+}: PaginationLinkProps) => (
   <a
     aria-current={isActive ? "page" : undefined}
     className={cn(buttonVariants({
@@ -48,10 +53,11 @@ PaginationLink.displayName = "PaginationLink"
 const PaginationPrevious = ({
   className,
   ...props
-}) => (
+}: React.ComponentProps<typeof PaginationLink>) => (
   <PaginationLink
     aria-label="Go to previous page"
     size="default"
+    isActive={false}
     className={cn("gap-1 pl-2.5", className)}
     {...props}>
     <ChevronLeft className="h-4 w-4" />
@@ -63,10 +69,11 @@ PaginationPrevious.displayName = "PaginationPrevious"
 const PaginationNext = ({
   className,
   ...props
-}) => (
+}: React.ComponentProps<typeof PaginationLink>) => (
   <PaginationLink
     aria-label="Go to next page"
     size="default"
+    isActive={false}
     className={cn("gap-1 pr-2.5", className)}
     {...props}>
     <span>Next</span>

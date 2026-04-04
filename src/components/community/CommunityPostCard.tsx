@@ -79,7 +79,7 @@ export default function CommunityPostCard({ post, index = 0 }) {
         </DialogTrigger>
 
         <DialogContent className="max-w-lg max-h-[85vh] overflow-y-auto">
-          <DialogHeader>
+          <DialogHeader className="">
             <DialogTitle>{post.title}</DialogTitle>
           </DialogHeader>
           {post.image_url && (

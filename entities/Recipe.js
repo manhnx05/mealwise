@@ -1,4 +1,4 @@
-{
+export default {
   "name": "Recipe",
   "type": "object",
   "properties": {

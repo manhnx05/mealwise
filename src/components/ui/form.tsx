@@ -1,19 +1,17 @@
 "use client";
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
-import { Controller, FormProvider, useFormContext } from "react-hook-form";
+import { Controller, ControllerProps, FieldValues, FormProvider, useFormContext } from "react-hook-form";
 
 import { cn } from "@/lib/utils"
 import { Label } from "@/components/ui/label"
 
 const Form = FormProvider
 
-const FormFieldContext = React.createContext({})
+const FormFieldContext = React.createContext<{ name?: string }>({})
 
-const FormField = (
-  {
-    ...props
-  }
+const FormField = <TFieldValues extends FieldValues = FieldValues>(
+  props: ControllerProps<TFieldValues>
 ) => {
   return (
     (<FormFieldContext.Provider value={{ name: props.name }}>
@@ -45,7 +43,7 @@ const useFormField = () => {
   }
 }
 
-const FormItemContext = React.createContext({})
+const FormItemContext = React.createContext<{ id?: string }>({})
 
 const FormItem = React.forwardRef<any, any>(({ className, ...props }, ref) => {
   const id = React.useId()

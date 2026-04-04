@@ -3,9 +3,21 @@ import { base44 } from '@/api/base44Client';
 import { appParams } from '@/lib/app-params';
 import { createAxiosClient } from '@base44/sdk/dist/utils/axios-client';
 
-const AuthContext = createContext();
+interface AuthContextType {
+  user: any;
+  isAuthenticated: boolean;
+  isLoadingAuth: boolean;
+  isLoadingPublicSettings: boolean;
+  authError: { type: string; message: string } | null;
+  appPublicSettings: any;
+  logout: (shouldRedirect?: boolean) => void;
+  navigateToLogin: () => void;
+  checkAppState: () => Promise<void>;
+}
 
-export const AuthProvider = ({ children }) => {
+const AuthContext = createContext<AuthContextType | undefined>(undefined);
+
+export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isLoadingAuth, setIsLoadingAuth] = useState(true);
@@ -145,7 +157,7 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
-export const useAuth = () => {
+export const useAuth = (): AuthContextType => {
   const context = useContext(AuthContext);
   if (!context) {
     throw new Error('useAuth must be used within an AuthProvider');

@@ -58,11 +58,13 @@ export default function MealPlanner() {
       }
     });
 
+    const responseData = typeof response === 'string' ? JSON.parse(response) : response;
+
     const planData = {
       week_start: new Date().toISOString().split('T')[0],
-      meals: response.meals || [],
-      shopping_list: (response.shopping_list || []).map(item => ({ ...item, checked: false })),
-      total_cost: response.total_cost || 0,
+      meals: responseData.meals || [],
+      shopping_list: (responseData.shopping_list || []).map((item: any) => ({ ...item, checked: false })),
+      total_cost: responseData.total_cost || 0,
     };
 
     if (currentPlan) {
@@ -151,7 +153,7 @@ export default function MealPlanner() {
                 >
                   <Card className="p-4">
                     <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                      <Badge className="bg-primary text-primary-foreground w-fit">{meal.day}</Badge>
+                      <Badge variant="secondary" className="bg-primary text-primary-foreground w-fit">{meal.day}</Badge>
                       <div className="flex-1 grid sm:grid-cols-3 gap-2 text-sm">
                         <div>
                           <span className="text-muted-foreground">Sáng: </span>

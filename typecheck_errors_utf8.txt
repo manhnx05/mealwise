@@ -1,0 +1,26 @@
+﻿src/components/ui/accordion.tsx(10,4): error TS2741: Property 'value' is missing in type '{ ref: ForwardedRef<any>; className: any; }' but required in type 'AccordionItemProps'.
+src/components/ui/chart.tsx(53,76): error TS2339: Property 'theme' does not exist on type 'unknown'.
+src/components/ui/chart.tsx(53,92): error TS2339: Property 'color' does not exist on type 'unknown'.
+src/components/ui/chart.tsx(68,14): error TS2339: Property 'theme' does not exist on type 'unknown'.
+src/components/ui/chart.tsx(69,14): error TS2339: Property 'color' does not exist on type 'unknown'.
+src/components/ui/chart.tsx(183,29): error TS2353: Object literal may only specify known properties, and '"--color-bg"' does not exist in type 'Properties<string | number, string & {}>'.
+src/components/ui/context-menu.tsx(91,4): error TS2741: Property 'value' is missing in type '{ children: any[]; ref: ForwardedRef<any>; className: any; }' but required in type 'Omit<MenuRadioItemProps & RefAttributes<HTMLDivElement>, "ref">'.
+src/components/ui/dropdown-menu.tsx(95,4): error TS2741: Property 'value' is missing in type '{ children: any[]; ref: ForwardedRef<any>; className: any; }' but required in type 'Omit<MenuRadioItemProps & RefAttributes<HTMLDivElement>, "ref">'.
+src/components/ui/form.tsx(20,8): error TS2741: Property 'render' is missing in type '{}' but required in type '{ render: ({ field, fieldState, formState, }: { field: ControllerRenderProps<FieldValues, string>; fieldState: ControllerFieldState; formState: UseFormStateReturn<FieldValues>; }) => ReactElement<...>; }'.
+src/components/ui/form.tsx(30,49): error TS2339: Property 'name' does not exist on type '{}'.
+src/components/ui/form.tsx(36,11): error TS2339: Property 'id' does not exist on type '{}'.
+src/components/ui/form.tsx(40,24): error TS2339: Property 'name' does not exist on type '{}'.
+src/components/ui/input-otp.tsx(8,4): error TS2322: Type '{ ref: ForwardedRef<any>; containerClassName: any; className: any; }' is not assignable to type 'IntrinsicAttributes & (OTPInputProps & RefAttributes<HTMLInputElement>)'.
+  Property 'maxLength' is missing in type '{ ref: ForwardedRef<any>; containerClassName: any; className: any; }' but required in type '{ value?: string; onChange?: (newValue: string) => unknown; maxLength: number; textAlign?: "left" | "right" | "center"; onComplete?: (...args: any[]) => unknown; pushPasswordManagerStrategy?: "none" | "increase-width"; pasteTransformer?: (pasted: string) => string; containerClassName?: string; noScriptCSSFallback?: ...'.
+src/components/ui/menubar.tsx(138,4): error TS2741: Property 'value' is missing in type '{ children: any[]; ref: ForwardedRef<any>; className: any; }' but required in type 'Omit<MenuRadioItemProps & RefAttributes<HTMLDivElement>, "ref">'.
+src/components/ui/pagination.tsx(42,7): error TS2322: Type 'string' is not assignable to type '"default" | "sm" | "lg" | "icon"'.
+src/components/ui/pagination.tsx(52,4): error TS2741: Property 'isActive' is missing in type '{ children: Element[]; "aria-label": string; size: string; className: any; }' but required in type '{ [x: string]: any; className: any; isActive: any; size?: string; }'.
+src/components/ui/pagination.tsx(67,4): error TS2741: Property 'isActive' is missing in type '{ children: Element[]; "aria-label": string; size: string; className: any; }' but required in type '{ [x: string]: any; className: any; isActive: any; size?: string; }'.
+src/components/ui/radio-group.tsx(14,7): error TS2741: Property 'value' is missing in type '{ children: Element; ref: ForwardedRef<any>; className: any; }' but required in type 'RadioGroupItemProps'.
+src/components/ui/resizable.tsx(12,4): error TS2741: Property 'direction' is missing in type '{ className: any; }' but required in type '{ autoSaveId?: string; className?: string; direction: Direction; id?: string; keyboardResizeBy?: number; onLayout?: PanelGroupOnLayout; storage?: PanelGroupStorage; style?: CSSProperties; tagName?: keyof HTMLElementTagNameMap; dir?: "auto" | ... 1 more ... | "rtl"; }'.
+src/components/ui/sidebar.tsx(118,15): error TS2353: Object literal may only specify known properties, and '"--sidebar-width"' does not exist in type 'Properties<string | number, string & {}>'.
+src/components/ui/sidebar.tsx(596,17): error TS2339: Property 'showIcon' does not exist on type 'HTMLAttributes<HTMLDivElement>'.
+src/components/ui/toggle-group.tsx(6,10): error TS2614: Module '"@/components/ui/toggle"' has no exported member 'toggleVariants'. Did you mean to use 'import toggleVariants from "@/components/ui/toggle"' instead?
+src/components/ui/toggle-group.tsx(14,4): error TS2322: Type '{ children: Element; ref: ForwardedRef<any>; className: any; }' is not assignable to type 'IntrinsicAttributes & ((ToggleGroupSingleProps | ToggleGroupMultipleProps) & RefAttributes<HTMLDivElement>)'.
+  Property 'type' is missing in type '{ children: Element; ref: ForwardedRef<any>; className: any; }' but required in type 'ToggleGroupMultipleProps'.
+src/components/ui/toggle-group.tsx(30,7): error TS2741: Property 'value' is missing in type '{ children: any; ref: ForwardedRef<any>; className: any; }' but required in type 'Omit<ToggleGroupItemImplProps, "pressed">'.
