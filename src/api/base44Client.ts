@@ -7,15 +7,27 @@
 // Giúp app hoạt động độc lập không cần backend cloud hay cơ sở dữ liệu.
 // =========================================================================
 
+import defaultRecipes from '../data/recipes.json';
+
 const DB_PREFIX = 'mealwise_db_';
 
 const generateId = () => Math.random().toString(36).substring(2, 11);
 
 const loadFromDB = (entityName: string) => {
   try {
-    const data = localStorage.getItem(DB_PREFIX + entityName);
-    return data ? JSON.parse(data) : [];
+    const dataStr = localStorage.getItem(DB_PREFIX + entityName);
+    const localData = dataStr ? JSON.parse(dataStr) : [];
+    
+    // Fallback data for Vercel/new users
+    if (entityName === 'Recipe') {
+      // Kết hợp dữ liệu tĩnh (hàng trăm món) vào với dữ liệu cục bộ
+      const localIds = new Set(localData.map((r: any) => r.id));
+      const addedDefaults = defaultRecipes.filter((r: any) => !localIds.has(r.id));
+      return [...localData, ...addedDefaults];
+    }
+    return localData;
   } catch (e) {
+    if (entityName === 'Recipe') return defaultRecipes;
     return [];
   }
 };

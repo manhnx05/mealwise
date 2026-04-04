@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "jn37idbl7",
+    "title": "Thịt Gà Xào Nấm Kim Châm",
+    "description": "Món thịt gà xào nấm kim châm vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 16,
+    "servings": 6,
+    "cost": 170000,
+    "calories": 556,
+    "protein": 80,
+    "fat": 32,
+    "carbs": 6,
+    "fiber": 20,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "460g",
+        "calories": 314,
+        "cost": 102000
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "119g",
+        "calories": 31,
+        "cost": 34000
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-04T09:43:16.193Z"
+  },
+  {
+    "id": "7nlgys6cm",
+    "title": "Tôm Chiên Ớt Chuông",
+    "description": "Món tôm chiên ớt chuông vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 10,
+    "servings": 2,
+    "cost": 156000,
+    "calories": 687,
+    "protein": 29,
+    "fat": 47,
+    "carbs": 38,
+    "fiber": 5,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "443g",
+        "calories": 278,
+        "cost": 93600
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "246g",
+        "calories": 100,
+        "cost": 31200
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-04T09:43:16.193Z"
+  },
+  {
+    "id": "0bpkqr4mn",
+    "title": "Đậu Hũ Xào Rau Cải",
+    "description": "Món đậu hũ xào rau cải vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 37,
+    "servings": 1,
+    "cost": 105000,
+    "calories": 265,
+    "protein": 85,
+    "fat": 24,
+    "carbs": 36,
+    "fiber": 17,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "399g",
+        "calories": 269,
+        "cost": 63000
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "236g",
+        "calories": 32,
+        "cost": 21000
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "10mpm70pr",
+    "title": "Sườn Non Trộn Salad Cà Rốt",
+    "description": "Món sườn non trộn salad cà rốt vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 34,
+    "servings": 2,
+    "cost": 105000,
+    "calories": 684,
+    "protein": 53,
+    "fat": 47,
+    "carbs": 34,
+    "fiber": 10,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "479g",
+        "calories": 282,
+        "cost": 63000
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "221g",
+        "calories": 24,
+        "cost": 21000
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "d600m1jm6",
+    "title": "Mực Xào Cà Rốt",
+    "description": "Món mực xào cà rốt vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 19,
+    "servings": 6,
+    "cost": 43000,
+    "calories": 578,
+    "protein": 69,
+    "fat": 36,
+    "carbs": 34,
+    "fiber": 0,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "250g",
+        "calories": 138,
+        "cost": 25800
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "228g",
+        "calories": 92,
+        "cost": 8600
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "rqh9ihpb6",
+    "title": "Thịt Gà Kho Măng Tây",
+    "description": "Món thịt gà kho măng tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 24,
+    "servings": 6,
+    "cost": 125000,
+    "calories": 346,
+    "protein": 70,
+    "fat": 5,
+    "carbs": 26,
+    "fiber": 20,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "249g",
+        "calories": 351,
+        "cost": 75000
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "162g",
+        "calories": 94,
+        "cost": 25000
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "akgy53nxm",
+    "title": "Cá Lóc Kho Nấm Kim Châm",
+    "description": "Món cá lóc kho nấm kim châm vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 30,
+    "servings": 6,
+    "cost": 85000,
+    "calories": 513,
+    "protein": 51,
+    "fat": 33,
+    "carbs": 13,
+    "fiber": 11,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "326g",
+        "calories": 281,
+        "cost": 51000
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "177g",
+        "calories": 88,
+        "cost": 17000
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "9dewjyip2",
+    "title": "Thịt Heo Nướng Bông Cải Xanh",
+    "description": "Món thịt heo nướng bông cải xanh vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 17,
+    "servings": 6,
+    "cost": 87000,
+    "calories": 663,
+    "protein": 73,
+    "fat": 49,
+    "carbs": 49,
+    "fiber": 13,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "429g",
+        "calories": 319,
+        "cost": 52200
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "125g",
+        "calories": 29,
+        "cost": 17400
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "pz28duufd",
+    "title": "Mực Kho Rau Cải",
+    "description": "Món mực kho rau cải vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 57,
+    "servings": 4,
+    "cost": 152000,
+    "calories": 364,
+    "protein": 60,
+    "fat": 47,
+    "carbs": 10,
+    "fiber": 12,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "470g",
+        "calories": 210,
+        "cost": 91200
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "269g",
+        "calories": 24,
+        "cost": 30400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-03T09:43:16.193Z"
+  },
+  {
+    "id": "3w29jdxop",
+    "title": "Thịt Bò Kho Rau Cải",
+    "description": "Món thịt bò kho rau cải vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 24,
+    "servings": 2,
+    "cost": 71000,
+    "calories": 482,
+    "protein": 42,
+    "fat": 36,
+    "carbs": 16,
+    "fiber": 1,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "241g",
+        "calories": 171,
+        "cost": 42600
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "188g",
+        "calories": 62,
+        "cost": 14200
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-02T09:43:16.193Z"
+  },
+  {
+    "id": "i1elwdpel",
+    "title": "Thịt Heo Trộn Salad Bông Cải Xanh",
+    "description": "Món thịt heo trộn salad bông cải xanh vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 39,
+    "servings": 4,
+    "cost": 191000,
+    "calories": 641,
+    "protein": 98,
+    "fat": 5,
+    "carbs": 39,
+    "fiber": 11,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "204g",
+        "calories": 186,
+        "cost": 114600
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "147g",
+        "calories": 84,
+        "cost": 38200
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-02T09:43:16.193Z"
+  },
+  {
+    "id": "vyx8pwzlu",
+    "title": "Thịt Bò Kho Rau Muống",
+    "description": "Món thịt bò kho rau muống vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 18,
+    "servings": 1,
+    "cost": 152000,
+    "calories": 465,
+    "protein": 59,
+    "fat": 16,
+    "carbs": 14,
+    "fiber": 0,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "207g",
+        "calories": 155,
+        "cost": 91200
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "126g",
+        "calories": 41,
+        "cost": 30400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-01T09:43:16.193Z"
+  },
+  {
+    "id": "jregwmnoy",
+    "title": "Mực Trộn Salad Rau Cải",
+    "description": "Món mực trộn salad rau cải vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 20,
+    "servings": 5,
+    "cost": 110000,
+    "calories": 208,
+    "protein": 13,
+    "fat": 41,
+    "carbs": 20,
+    "fiber": 11,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "398g",
+        "calories": 108,
+        "cost": 66000
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "297g",
+        "calories": 65,
+        "cost": 22000
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-01T09:43:16.193Z"
+  },
+  {
+    "id": "ssr4r9ckb",
+    "title": "Cá Lóc Hấp Cà Rốt",
+    "description": "Món cá lóc hấp cà rốt vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 13,
+    "servings": 1,
+    "cost": 44000,
+    "calories": 524,
+    "protein": 30,
+    "fat": 6,
+    "carbs": 32,
+    "fiber": 18,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "239g",
+        "calories": 354,
+        "cost": 26400
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "197g",
+        "calories": 83,
+        "cost": 8800
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-01T09:43:16.193Z"
+  },
+  {
+    "id": "7t8tcafi1",
+    "title": "Thịt Gà Trộn Salad Cà Rốt",
+    "description": "Món thịt gà trộn salad cà rốt vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 48,
+    "servings": 2,
+    "cost": 111000,
+    "calories": 721,
+    "protein": 37,
+    "fat": 50,
+    "carbs": 10,
+    "fiber": 13,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "292g",
+        "calories": 260,
+        "cost": 66600
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "136g",
+        "calories": 70,
+        "cost": 22200
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-04-01T09:43:16.193Z"
+  },
+  {
+    "id": "lmkcle6nu",
+    "title": "Thịt Heo Hấp Nấm Kim Châm",
+    "description": "Món thịt heo hấp nấm kim châm vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 14,
+    "servings": 3,
+    "cost": 115000,
+    "calories": 410,
+    "protein": 65,
+    "fat": 9,
+    "carbs": 15,
+    "fiber": 7,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "460g",
+        "calories": 242,
+        "cost": 69000
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "133g",
+        "calories": 100,
+        "cost": 23000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-31T09:43:16.193Z"
+  },
+  {
+    "id": "wgovy4uq0",
+    "title": "Mực Trộn Salad Bông Cải Xanh",
+    "description": "Món mực trộn salad bông cải xanh vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 56,
+    "servings": 3,
+    "cost": 125000,
+    "calories": 363,
+    "protein": 34,
+    "fat": 21,
+    "carbs": 15,
+    "fiber": 17,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "252g",
+        "calories": 291,
+        "cost": 75000
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "141g",
+        "calories": 29,
+        "cost": 25000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-30T09:43:16.193Z"
+  },
+  {
+    "id": "er2p6u4h8",
+    "title": "Thịt Gà Hấp Nấm Kim Châm",
+    "description": "Món thịt gà hấp nấm kim châm vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 24,
+    "servings": 1,
+    "cost": 137000,
+    "calories": 694,
+    "protein": 39,
+    "fat": 33,
+    "carbs": 12,
+    "fiber": 18,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "225g",
+        "calories": 306,
+        "cost": 82200
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "292g",
+        "calories": 54,
+        "cost": 27400
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-30T09:43:16.193Z"
+  },
+  {
+    "id": "q8xdaxqp9",
+    "title": "Thịt Heo Hấp Măng Tây",
+    "description": "Món thịt heo hấp măng tây vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 33,
+    "servings": 4,
+    "cost": 83000,
+    "calories": 612,
+    "protein": 28,
+    "fat": 35,
+    "carbs": 14,
+    "fiber": 15,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "239g",
+        "calories": 156,
+        "cost": 49800
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "190g",
+        "calories": 51,
+        "cost": 16600
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-30T09:43:16.193Z"
+  },
+  {
+    "id": "7kq0hybfs",
+    "title": "Thịt Bò Kho Hành Tây",
+    "description": "Món thịt bò kho hành tây vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 13,
+    "servings": 3,
+    "cost": 165000,
+    "calories": 497,
+    "protein": 58,
+    "fat": 37,
+    "carbs": 33,
+    "fiber": 11,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "396g",
+        "calories": 228,
+        "cost": 99000
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "232g",
+        "calories": 57,
+        "cost": 33000
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-30T09:43:16.193Z"
+  },
+  {
+    "id": "tkb2zxjpw",
+    "title": "Thịt Heo Kho Rau Cải",
+    "description": "Món thịt heo kho rau cải vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 15,
+    "servings": 1,
+    "cost": 71000,
+    "calories": 421,
+    "protein": 19,
+    "fat": 43,
+    "carbs": 41,
+    "fiber": 15,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "379g",
+        "calories": 227,
+        "cost": 42600
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "137g",
+        "calories": 68,
+        "cost": 14200
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-29T09:43:16.193Z"
+  },
+  {
+    "id": "9m4yn2omd",
+    "title": "Mực Trộn Salad Rau Muống",
+    "description": "Món mực trộn salad rau muống vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 29,
+    "servings": 6,
+    "cost": 83000,
+    "calories": 709,
+    "protein": 80,
+    "fat": 34,
+    "carbs": 25,
+    "fiber": 18,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "259g",
+        "calories": 366,
+        "cost": 49800
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "166g",
+        "calories": 21,
+        "cost": 16600
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-29T09:43:16.193Z"
+  },
+  {
+    "id": "uiumq6765",
+    "title": "Sườn Non Trộn Salad Bông Cải Xanh",
+    "description": "Món sườn non trộn salad bông cải xanh vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 19,
+    "servings": 5,
+    "cost": 36000,
+    "calories": 681,
+    "protein": 22,
+    "fat": 6,
+    "carbs": 33,
+    "fiber": 2,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "275g",
+        "calories": 286,
+        "cost": 21600
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "183g",
+        "calories": 29,
+        "cost": 7200
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-29T09:43:16.193Z"
+  },
+  {
+    "id": "9qr75172k",
+    "title": "Thịt Gà Nướng Rau Cải",
+    "description": "Món thịt gà nướng rau cải vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 29,
+    "servings": 5,
+    "cost": 168000,
+    "calories": 768,
+    "protein": 24,
+    "fat": 37,
+    "carbs": 43,
+    "fiber": 1,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "247g",
+        "calories": 328,
+        "cost": 100800
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "205g",
+        "calories": 21,
+        "cost": 33600
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-29T09:43:16.193Z"
+  },
+  {
+    "id": "7t5l8uwak",
+    "title": "Tôm Hấp Cà Rốt",
+    "description": "Món tôm hấp cà rốt vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 15,
+    "servings": 5,
+    "cost": 73000,
+    "calories": 575,
+    "protein": 65,
+    "fat": 40,
+    "carbs": 23,
+    "fiber": 0,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "243g",
+        "calories": 328,
+        "cost": 43800
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "167g",
+        "calories": 37,
+        "cost": 14600
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-29T09:43:16.193Z"
+  },
+  {
+    "id": "8gllpdlcp",
+    "title": "Đậu Hũ Kho Nấm Kim Châm",
+    "description": "Món đậu hũ kho nấm kim châm vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 60,
+    "servings": 4,
+    "cost": 175000,
+    "calories": 413,
+    "protein": 80,
+    "fat": 17,
+    "carbs": 41,
+    "fiber": 4,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "284g",
+        "calories": 295,
+        "cost": 105000
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "281g",
+        "calories": 44,
+        "cost": 35000
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-28T09:43:16.193Z"
+  },
+  {
+    "id": "jdoshwrbi",
+    "title": "Mực Xào Ớt Chuông",
+    "description": "Món mực xào ớt chuông vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 14,
+    "servings": 1,
+    "cost": 106000,
+    "calories": 343,
+    "protein": 38,
+    "fat": 45,
+    "carbs": 42,
+    "fiber": 9,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "249g",
+        "calories": 249,
+        "cost": 63600
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "104g",
+        "calories": 46,
+        "cost": 21200
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-28T09:43:16.193Z"
+  },
+  {
+    "id": "aw24o5ryx",
+    "title": "Cá Lóc Nướng Cà Rốt",
+    "description": "Món cá lóc nướng cà rốt vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 41,
+    "servings": 6,
+    "cost": 152000,
+    "calories": 472,
+    "protein": 76,
+    "fat": 14,
+    "carbs": 43,
+    "fiber": 20,
+    "category": "budget",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "478g",
+        "calories": 351,
+        "cost": 91200
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "285g",
+        "calories": 59,
+        "cost": 30400
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-28T09:43:16.193Z"
+  },
+  {
+    "id": "fd4b870s6",
+    "title": "Thịt Gà Xào Rau Muống",
+    "description": "Món thịt gà xào rau muống vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 16,
+    "servings": 3,
+    "cost": 172000,
+    "calories": 207,
+    "protein": 76,
+    "fat": 20,
+    "carbs": 32,
+    "fiber": 3,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "481g",
+        "calories": 167,
+        "cost": 103200
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "261g",
+        "calories": 73,
+        "cost": 34400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-28T09:43:16.193Z"
+  },
+  {
+    "id": "fr6lsrpvj",
+    "title": "Thịt Gà Trộn Salad Rau Cải",
+    "description": "Món thịt gà trộn salad rau cải vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 19,
+    "servings": 2,
+    "cost": 120000,
+    "calories": 754,
+    "protein": 99,
+    "fat": 9,
+    "carbs": 25,
+    "fiber": 15,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "488g",
+        "calories": 348,
+        "cost": 72000
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "275g",
+        "calories": 41,
+        "cost": 24000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-27T09:43:16.193Z"
+  },
+  {
+    "id": "8ohxgrkka",
+    "title": "Đậu Hũ Kho Măng Tây",
+    "description": "Món đậu hũ kho măng tây vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 46,
+    "servings": 1,
+    "cost": 136000,
+    "calories": 548,
+    "protein": 72,
+    "fat": 8,
+    "carbs": 8,
+    "fiber": 9,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "322g",
+        "calories": 396,
+        "cost": 81600
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "240g",
+        "calories": 44,
+        "cost": 27200
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-27T09:43:16.193Z"
+  },
+  {
+    "id": "r0tsq4spp",
+    "title": "Cá Hồi Nướng Ớt Chuông",
+    "description": "Món cá hồi nướng ớt chuông vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 38,
+    "servings": 6,
+    "cost": 94000,
+    "calories": 419,
+    "protein": 59,
+    "fat": 43,
+    "carbs": 17,
+    "fiber": 11,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "203g",
+        "calories": 160,
+        "cost": 56400
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "228g",
+        "calories": 86,
+        "cost": 18800
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-27T09:43:16.193Z"
+  },
+  {
+    "id": "pu8m5k7zy",
+    "title": "Mực Kho Rau Muống",
+    "description": "Món mực kho rau muống vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 55,
+    "servings": 6,
+    "cost": 135000,
+    "calories": 734,
+    "protein": 74,
+    "fat": 36,
+    "carbs": 38,
+    "fiber": 0,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "260g",
+        "calories": 304,
+        "cost": 81000
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "179g",
+        "calories": 69,
+        "cost": 27000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-27T09:43:16.193Z"
+  },
+  {
+    "id": "gy08jl79j",
+    "title": "Mực Nướng Hành Tây",
+    "description": "Món mực nướng hành tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 34,
+    "servings": 1,
+    "cost": 198000,
+    "calories": 627,
+    "protein": 94,
+    "fat": 5,
+    "carbs": 27,
+    "fiber": 13,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "232g",
+        "calories": 221,
+        "cost": 118800
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "249g",
+        "calories": 75,
+        "cost": 39600
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-27T09:43:16.193Z"
+  },
+  {
+    "id": "um90gs9hf",
+    "title": "Thịt Heo Trộn Salad Cà Rốt",
+    "description": "Món thịt heo trộn salad cà rốt vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 12,
+    "servings": 1,
+    "cost": 102000,
+    "calories": 432,
+    "protein": 96,
+    "fat": 26,
+    "carbs": 7,
+    "fiber": 5,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "409g",
+        "calories": 120,
+        "cost": 61200
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "265g",
+        "calories": 99,
+        "cost": 20400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-27T09:43:16.193Z"
+  },
+  {
+    "id": "3ccqzxkk0",
+    "title": "Thịt Heo Xào Bông Cải Xanh",
+    "description": "Món thịt heo xào bông cải xanh vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 29,
+    "servings": 3,
+    "cost": 138000,
+    "calories": 416,
+    "protein": 37,
+    "fat": 33,
+    "carbs": 19,
+    "fiber": 20,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "497g",
+        "calories": 127,
+        "cost": 82800
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "269g",
+        "calories": 30,
+        "cost": 27600
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-26T09:43:16.193Z"
+  },
+  {
+    "id": "1j08zoder",
+    "title": "Thịt Bò Hấp Bông Cải Xanh",
+    "description": "Món thịt bò hấp bông cải xanh vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 55,
+    "servings": 2,
+    "cost": 113000,
+    "calories": 265,
+    "protein": 66,
+    "fat": 41,
+    "carbs": 22,
+    "fiber": 5,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "485g",
+        "calories": 104,
+        "cost": 67800
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "126g",
+        "calories": 34,
+        "cost": 22600
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-26T09:43:16.193Z"
+  },
+  {
+    "id": "0pa5opw3o",
+    "title": "Tôm Hấp Bông Cải Xanh",
+    "description": "Món tôm hấp bông cải xanh vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 41,
+    "servings": 3,
+    "cost": 179000,
+    "calories": 682,
+    "protein": 75,
+    "fat": 35,
+    "carbs": 23,
+    "fiber": 13,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "234g",
+        "calories": 319,
+        "cost": 107400
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "183g",
+        "calories": 88,
+        "cost": 35800
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-26T09:43:16.193Z"
+  },
+  {
+    "id": "943lg4qip",
+    "title": "Cá Hồi Trộn Salad Hành Tây",
+    "description": "Món cá hồi trộn salad hành tây vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 19,
+    "servings": 4,
+    "cost": 106000,
+    "calories": 496,
+    "protein": 78,
+    "fat": 49,
+    "carbs": 29,
+    "fiber": 8,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "232g",
+        "calories": 180,
+        "cost": 63600
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "140g",
+        "calories": 35,
+        "cost": 21200
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-26T09:43:16.193Z"
+  },
+  {
+    "id": "52r2w9elu",
+    "title": "Mực Kho Nấm Kim Châm",
+    "description": "Món mực kho nấm kim châm vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 46,
+    "servings": 3,
+    "cost": 55000,
+    "calories": 303,
+    "protein": 72,
+    "fat": 48,
+    "carbs": 28,
+    "fiber": 7,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "362g",
+        "calories": 196,
+        "cost": 33000
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "220g",
+        "calories": 53,
+        "cost": 11000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-25T09:43:16.193Z"
+  },
+  {
+    "id": "4356lhdnz",
+    "title": "Thịt Heo Chiên Cà Rốt",
+    "description": "Món thịt heo chiên cà rốt vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 20,
+    "servings": 5,
+    "cost": 69000,
+    "calories": 484,
+    "protein": 75,
+    "fat": 9,
+    "carbs": 21,
+    "fiber": 8,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "278g",
+        "calories": 174,
+        "cost": 41400
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "263g",
+        "calories": 82,
+        "cost": 13800
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-25T09:43:16.193Z"
+  },
+  {
+    "id": "2wav3wcj1",
+    "title": "Mực Nướng Rau Cải",
+    "description": "Món mực nướng rau cải vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 19,
+    "servings": 2,
+    "cost": 191000,
+    "calories": 279,
+    "protein": 48,
+    "fat": 13,
+    "carbs": 11,
+    "fiber": 6,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "450g",
+        "calories": 391,
+        "cost": 114600
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "282g",
+        "calories": 24,
+        "cost": 38200
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-25T09:43:16.193Z"
+  },
+  {
+    "id": "0txzx3xry",
+    "title": "Thịt Bò Kho Bông Cải Xanh",
+    "description": "Món thịt bò kho bông cải xanh vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 36,
+    "servings": 3,
+    "cost": 36000,
+    "calories": 562,
+    "protein": 48,
+    "fat": 38,
+    "carbs": 43,
+    "fiber": 1,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "254g",
+        "calories": 341,
+        "cost": 21600
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "261g",
+        "calories": 90,
+        "cost": 7200
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-24T09:43:16.193Z"
+  },
+  {
+    "id": "93z74ysy5",
+    "title": "Thịt Heo Kho Nấm Kim Châm",
+    "description": "Món thịt heo kho nấm kim châm vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 17,
+    "servings": 1,
+    "cost": 108000,
+    "calories": 603,
+    "protein": 89,
+    "fat": 50,
+    "carbs": 21,
+    "fiber": 1,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "284g",
+        "calories": 325,
+        "cost": 64800
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "186g",
+        "calories": 85,
+        "cost": 21600
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-24T09:43:16.193Z"
+  },
+  {
+    "id": "bkg0l3oqo",
+    "title": "Thịt Heo Kho Nấm Kim Châm",
+    "description": "Món thịt heo kho nấm kim châm vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 23,
+    "servings": 1,
+    "cost": 123000,
+    "calories": 755,
+    "protein": 57,
+    "fat": 21,
+    "carbs": 12,
+    "fiber": 18,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "461g",
+        "calories": 190,
+        "cost": 73800
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "262g",
+        "calories": 43,
+        "cost": 24600
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-23T09:43:16.193Z"
+  },
+  {
+    "id": "bd5ay1zyn",
+    "title": "Thịt Bò Nướng Măng Tây",
+    "description": "Món thịt bò nướng măng tây vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 11,
+    "servings": 2,
+    "cost": 111000,
+    "calories": 672,
+    "protein": 12,
+    "fat": 28,
+    "carbs": 40,
+    "fiber": 0,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "488g",
+        "calories": 135,
+        "cost": 66600
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "133g",
+        "calories": 23,
+        "cost": 22200
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-23T09:43:16.193Z"
+  },
+  {
+    "id": "r9i2cpo88",
+    "title": "Đậu Hũ Kho Hành Tây",
+    "description": "Món đậu hũ kho hành tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 39,
+    "servings": 6,
+    "cost": 160000,
+    "calories": 211,
+    "protein": 57,
+    "fat": 35,
+    "carbs": 23,
+    "fiber": 9,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "428g",
+        "calories": 266,
+        "cost": 96000
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "130g",
+        "calories": 50,
+        "cost": 32000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-23T09:43:16.193Z"
+  },
+  {
+    "id": "hjur514a2",
+    "title": "Sườn Non Trộn Salad Ớt Chuông",
+    "description": "Món sườn non trộn salad ớt chuông vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 41,
+    "servings": 2,
+    "cost": 126000,
+    "calories": 582,
+    "protein": 50,
+    "fat": 26,
+    "carbs": 27,
+    "fiber": 20,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "440g",
+        "calories": 135,
+        "cost": 75600
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "276g",
+        "calories": 78,
+        "cost": 25200
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-23T09:43:16.193Z"
+  },
+  {
+    "id": "7gslwrhtl",
+    "title": "Cá Lóc Nướng Măng Tây",
+    "description": "Món cá lóc nướng măng tây vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 44,
+    "servings": 6,
+    "cost": 134000,
+    "calories": 734,
+    "protein": 97,
+    "fat": 47,
+    "carbs": 11,
+    "fiber": 7,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "283g",
+        "calories": 325,
+        "cost": 80400
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "192g",
+        "calories": 35,
+        "cost": 26800
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-22T09:43:16.193Z"
+  },
+  {
+    "id": "mpm8z26zk",
+    "title": "Sườn Non Kho Bông Cải Xanh",
+    "description": "Món sườn non kho bông cải xanh vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 59,
+    "servings": 3,
+    "cost": 66000,
+    "calories": 676,
+    "protein": 43,
+    "fat": 33,
+    "carbs": 10,
+    "fiber": 7,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "391g",
+        "calories": 323,
+        "cost": 39600
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "177g",
+        "calories": 58,
+        "cost": 13200
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-22T09:43:16.193Z"
+  },
+  {
+    "id": "mh1p8mqu2",
+    "title": "Tôm Kho Bông Cải Xanh",
+    "description": "Món tôm kho bông cải xanh vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 30,
+    "servings": 6,
+    "cost": 115000,
+    "calories": 623,
+    "protein": 87,
+    "fat": 33,
+    "carbs": 22,
+    "fiber": 20,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "302g",
+        "calories": 206,
+        "cost": 69000
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "255g",
+        "calories": 26,
+        "cost": 23000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-22T09:43:16.193Z"
+  },
+  {
+    "id": "djylg8i5l",
+    "title": "Cá Hồi Trộn Salad Cà Rốt",
+    "description": "Món cá hồi trộn salad cà rốt vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 27,
+    "servings": 6,
+    "cost": 74000,
+    "calories": 713,
+    "protein": 76,
+    "fat": 29,
+    "carbs": 27,
+    "fiber": 7,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "447g",
+        "calories": 307,
+        "cost": 44400
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "276g",
+        "calories": 97,
+        "cost": 14800
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-22T09:43:16.193Z"
+  },
+  {
+    "id": "hwpf6p14b",
+    "title": "Tôm Chiên Nấm Kim Châm",
+    "description": "Món tôm chiên nấm kim châm vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 60,
+    "servings": 3,
+    "cost": 117000,
+    "calories": 208,
+    "protein": 27,
+    "fat": 21,
+    "carbs": 29,
+    "fiber": 19,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "393g",
+        "calories": 359,
+        "cost": 70200
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "277g",
+        "calories": 96,
+        "cost": 23400
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "c1ff5yczv",
+    "title": "Đậu Hũ Hấp Măng Tây",
+    "description": "Món đậu hũ hấp măng tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 28,
+    "servings": 5,
+    "cost": 76000,
+    "calories": 785,
+    "protein": 47,
+    "fat": 31,
+    "carbs": 36,
+    "fiber": 4,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "268g",
+        "calories": 100,
+        "cost": 45600
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "151g",
+        "calories": 69,
+        "cost": 15200
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "9dc64calc",
+    "title": "Sườn Non Nướng Cà Rốt",
+    "description": "Món sườn non nướng cà rốt vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 45,
+    "servings": 1,
+    "cost": 130000,
+    "calories": 768,
+    "protein": 92,
+    "fat": 24,
+    "carbs": 44,
+    "fiber": 20,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "312g",
+        "calories": 224,
+        "cost": 78000
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "296g",
+        "calories": 37,
+        "cost": 26000
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "0ngqckv5l",
+    "title": "Thịt Bò Xào Măng Tây",
+    "description": "Món thịt bò xào măng tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 26,
+    "servings": 4,
+    "cost": 40000,
+    "calories": 310,
+    "protein": 44,
+    "fat": 15,
+    "carbs": 28,
+    "fiber": 12,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "215g",
+        "calories": 240,
+        "cost": 24000
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "180g",
+        "calories": 85,
+        "cost": 8000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "j1xzi3u1v",
+    "title": "Cá Hồi Hấp Bông Cải Xanh",
+    "description": "Món cá hồi hấp bông cải xanh vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 20,
+    "servings": 1,
+    "cost": 119000,
+    "calories": 589,
+    "protein": 43,
+    "fat": 47,
+    "carbs": 44,
+    "fiber": 18,
+    "category": "budget",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "426g",
+        "calories": 350,
+        "cost": 71400
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "194g",
+        "calories": 67,
+        "cost": 23800
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "nz8m00j8f",
+    "title": "Thịt Bò Chiên Rau Muống",
+    "description": "Món thịt bò chiên rau muống vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 44,
+    "servings": 2,
+    "cost": 69000,
+    "calories": 373,
+    "protein": 17,
+    "fat": 36,
+    "carbs": 43,
+    "fiber": 15,
+    "category": "budget",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "231g",
+        "calories": 242,
+        "cost": 41400
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "176g",
+        "calories": 94,
+        "cost": 13800
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "ucsq88ci8",
+    "title": "Thịt Heo Kho Hành Tây",
+    "description": "Món thịt heo kho hành tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 52,
+    "servings": 2,
+    "cost": 52000,
+    "calories": 484,
+    "protein": 26,
+    "fat": 7,
+    "carbs": 46,
+    "fiber": 9,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "470g",
+        "calories": 194,
+        "cost": 31200
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "294g",
+        "calories": 62,
+        "cost": 10400
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-21T09:43:16.193Z"
+  },
+  {
+    "id": "puz1a6dx6",
+    "title": "Tôm Chiên Cà Rốt",
+    "description": "Món tôm chiên cà rốt vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 25,
+    "servings": 4,
+    "cost": 200000,
+    "calories": 244,
+    "protein": 80,
+    "fat": 10,
+    "carbs": 50,
+    "fiber": 11,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "212g",
+        "calories": 153,
+        "cost": 120000
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "111g",
+        "calories": 64,
+        "cost": 40000
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-20T09:43:16.193Z"
+  },
+  {
+    "id": "v4hbj3ia5",
+    "title": "Đậu Hũ Nướng Cà Rốt",
+    "description": "Món đậu hũ nướng cà rốt vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 27,
+    "servings": 5,
+    "cost": 123000,
+    "calories": 652,
+    "protein": 89,
+    "fat": 47,
+    "carbs": 49,
+    "fiber": 4,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "469g",
+        "calories": 345,
+        "cost": 73800
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "250g",
+        "calories": 76,
+        "cost": 24600
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-20T09:43:16.193Z"
+  },
+  {
+    "id": "kkwjdjd9s",
+    "title": "Sườn Non Chiên Bông Cải Xanh",
+    "description": "Món sườn non chiên bông cải xanh vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 26,
+    "servings": 3,
+    "cost": 160000,
+    "calories": 462,
+    "protein": 43,
+    "fat": 17,
+    "carbs": 42,
+    "fiber": 11,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "371g",
+        "calories": 134,
+        "cost": 96000
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "297g",
+        "calories": 38,
+        "cost": 32000
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-20T09:43:16.193Z"
+  },
+  {
+    "id": "o58zrw646",
+    "title": "Thịt Bò Xào Bông Cải Xanh",
+    "description": "Món thịt bò xào bông cải xanh vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 59,
+    "servings": 3,
+    "cost": 108000,
+    "calories": 576,
+    "protein": 71,
+    "fat": 50,
+    "carbs": 33,
+    "fiber": 14,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "301g",
+        "calories": 262,
+        "cost": 64800
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "270g",
+        "calories": 22,
+        "cost": 21600
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-20T09:43:16.193Z"
+  },
+  {
+    "id": "d51qr1zhi",
+    "title": "Thịt Heo Nướng Rau Muống",
+    "description": "Món thịt heo nướng rau muống vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 58,
+    "servings": 3,
+    "cost": 56000,
+    "calories": 359,
+    "protein": 91,
+    "fat": 23,
+    "carbs": 43,
+    "fiber": 2,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "370g",
+        "calories": 348,
+        "cost": 33600
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "299g",
+        "calories": 88,
+        "cost": 11200
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-19T09:43:16.193Z"
+  },
+  {
+    "id": "9hviqcdax",
+    "title": "Cá Lóc Chiên Rau Muống",
+    "description": "Món cá lóc chiên rau muống vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 42,
+    "servings": 6,
+    "cost": 184000,
+    "calories": 578,
+    "protein": 63,
+    "fat": 17,
+    "carbs": 9,
+    "fiber": 4,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "305g",
+        "calories": 132,
+        "cost": 110400
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "138g",
+        "calories": 57,
+        "cost": 36800
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-19T09:43:16.193Z"
+  },
+  {
+    "id": "a8bw6iqs6",
+    "title": "Cá Lóc Nướng Hành Tây",
+    "description": "Món cá lóc nướng hành tây vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 39,
+    "servings": 6,
+    "cost": 139000,
+    "calories": 297,
+    "protein": 87,
+    "fat": 32,
+    "carbs": 22,
+    "fiber": 8,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "411g",
+        "calories": 121,
+        "cost": 83400
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "207g",
+        "calories": 36,
+        "cost": 27800
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-19T09:43:16.193Z"
+  },
+  {
+    "id": "r51qtedz6",
+    "title": "Sườn Non Hấp Rau Muống",
+    "description": "Món sườn non hấp rau muống vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 13,
+    "servings": 4,
+    "cost": 165000,
+    "calories": 413,
+    "protein": 62,
+    "fat": 31,
+    "carbs": 45,
+    "fiber": 0,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "216g",
+        "calories": 114,
+        "cost": 99000
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "101g",
+        "calories": 65,
+        "cost": 33000
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-19T09:43:16.193Z"
+  },
+  {
+    "id": "kx6zlj53s",
+    "title": "Tôm Kho Rau Muống",
+    "description": "Món tôm kho rau muống vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 60,
+    "servings": 3,
+    "cost": 182000,
+    "calories": 686,
+    "protein": 96,
+    "fat": 34,
+    "carbs": 7,
+    "fiber": 19,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "255g",
+        "calories": 153,
+        "cost": 109200
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "291g",
+        "calories": 36,
+        "cost": 36400
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-18T09:43:16.193Z"
+  },
+  {
+    "id": "uqlpnc6lh",
+    "title": "Thịt Heo Chiên Hành Tây",
+    "description": "Món thịt heo chiên hành tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 60,
+    "servings": 2,
+    "cost": 170000,
+    "calories": 600,
+    "protein": 57,
+    "fat": 42,
+    "carbs": 29,
+    "fiber": 8,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "444g",
+        "calories": 354,
+        "cost": 102000
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "169g",
+        "calories": 20,
+        "cost": 34000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-18T09:43:16.193Z"
+  },
+  {
+    "id": "ftvao38nu",
+    "title": "Thịt Gà Xào Măng Tây",
+    "description": "Món thịt gà xào măng tây vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop",
+    "cook_time": 34,
+    "servings": 3,
+    "cost": 55000,
+    "calories": 761,
+    "protein": 84,
+    "fat": 34,
+    "carbs": 35,
+    "fiber": 1,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "264g",
+        "calories": 261,
+        "cost": 33000
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "153g",
+        "calories": 90,
+        "cost": 11000
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-18T09:43:16.193Z"
+  },
+  {
+    "id": "c2owddhft",
+    "title": "Thịt Bò Hấp Rau Muống",
+    "description": "Món thịt bò hấp rau muống vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 27,
+    "servings": 2,
+    "cost": 73000,
+    "calories": 382,
+    "protein": 66,
+    "fat": 35,
+    "carbs": 7,
+    "fiber": 13,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "285g",
+        "calories": 213,
+        "cost": 43800
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "143g",
+        "calories": 58,
+        "cost": 14600
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-18T09:43:16.193Z"
+  },
+  {
+    "id": "pjmngvl24",
+    "title": "Sườn Non Chiên Rau Cải",
+    "description": "Món sườn non chiên rau cải vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 11,
+    "servings": 1,
+    "cost": 76000,
+    "calories": 799,
+    "protein": 23,
+    "fat": 24,
+    "carbs": 15,
+    "fiber": 8,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "354g",
+        "calories": 338,
+        "cost": 45600
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "145g",
+        "calories": 86,
+        "cost": 15200
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-17T09:43:16.193Z"
+  },
+  {
+    "id": "ym6f4p9t6",
+    "title": "Đậu Hũ Nướng Ớt Chuông",
+    "description": "Món đậu hũ nướng ớt chuông vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 52,
+    "servings": 6,
+    "cost": 198000,
+    "calories": 542,
+    "protein": 84,
+    "fat": 16,
+    "carbs": 38,
+    "fiber": 8,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "339g",
+        "calories": 379,
+        "cost": 118800
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "208g",
+        "calories": 79,
+        "cost": 39600
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-17T09:43:16.193Z"
+  },
+  {
+    "id": "dwgutik3j",
+    "title": "Mực Xào Ớt Chuông",
+    "description": "Món mực xào ớt chuông vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 33,
+    "servings": 3,
+    "cost": 109000,
+    "calories": 509,
+    "protein": 45,
+    "fat": 18,
+    "carbs": 17,
+    "fiber": 13,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "232g",
+        "calories": 210,
+        "cost": 65400
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "112g",
+        "calories": 22,
+        "cost": 21800
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-17T09:43:16.193Z"
+  },
+  {
+    "id": "hw00xbit1",
+    "title": "Đậu Hũ Chiên Hành Tây",
+    "description": "Món đậu hũ chiên hành tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 33,
+    "servings": 4,
+    "cost": 82000,
+    "calories": 347,
+    "protein": 82,
+    "fat": 21,
+    "carbs": 47,
+    "fiber": 18,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "272g",
+        "calories": 305,
+        "cost": 49200
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "295g",
+        "calories": 55,
+        "cost": 16400
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-17T09:43:16.193Z"
+  },
+  {
+    "id": "5a9slr062",
+    "title": "Tôm Xào Rau Cải",
+    "description": "Món tôm xào rau cải vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 13,
+    "servings": 2,
+    "cost": 31000,
+    "calories": 253,
+    "protein": 69,
+    "fat": 8,
+    "carbs": 29,
+    "fiber": 16,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "390g",
+        "calories": 313,
+        "cost": 18600
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "254g",
+        "calories": 35,
+        "cost": 6200
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "tjxdbgrx8",
+    "title": "Cá Hồi Kho Cà Rốt",
+    "description": "Món cá hồi kho cà rốt vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 49,
+    "servings": 3,
+    "cost": 41000,
+    "calories": 629,
+    "protein": 11,
+    "fat": 25,
+    "carbs": 35,
+    "fiber": 9,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "425g",
+        "calories": 117,
+        "cost": 24600
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "188g",
+        "calories": 67,
+        "cost": 8200
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "2szxsot4u",
+    "title": "Mực Trộn Salad Ớt Chuông",
+    "description": "Món mực trộn salad ớt chuông vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 52,
+    "servings": 1,
+    "cost": 48000,
+    "calories": 584,
+    "protein": 91,
+    "fat": 14,
+    "carbs": 23,
+    "fiber": 18,
+    "category": "budget",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "345g",
+        "calories": 380,
+        "cost": 28800
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "265g",
+        "calories": 89,
+        "cost": 9600
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "ft668lrle",
+    "title": "Thịt Bò Trộn Salad Măng Tây",
+    "description": "Món thịt bò trộn salad măng tây vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 21,
+    "servings": 6,
+    "cost": 164000,
+    "calories": 597,
+    "protein": 78,
+    "fat": 47,
+    "carbs": 17,
+    "fiber": 18,
+    "category": "weight_loss",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "377g",
+        "calories": 171,
+        "cost": 98400
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "182g",
+        "calories": 82,
+        "cost": 32800
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "cyduay2an",
+    "title": "Đậu Hũ Hấp Rau Cải",
+    "description": "Món đậu hũ hấp rau cải vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 29,
+    "servings": 6,
+    "cost": 34000,
+    "calories": 692,
+    "protein": 39,
+    "fat": 25,
+    "carbs": 50,
+    "fiber": 2,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "380g",
+        "calories": 118,
+        "cost": 20400
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "202g",
+        "calories": 85,
+        "cost": 6800
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "sju0jjicj",
+    "title": "Thịt Bò Kho Ớt Chuông",
+    "description": "Món thịt bò kho ớt chuông vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 50,
+    "servings": 4,
+    "cost": 162000,
+    "calories": 458,
+    "protein": 78,
+    "fat": 46,
+    "carbs": 47,
+    "fiber": 11,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "453g",
+        "calories": 370,
+        "cost": 97200
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "256g",
+        "calories": 40,
+        "cost": 32400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "9m4l1qsfu",
+    "title": "Cá Lóc Hấp Hành Tây",
+    "description": "Món cá lóc hấp hành tây vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 12,
+    "servings": 4,
+    "cost": 175000,
+    "calories": 580,
+    "protein": 45,
+    "fat": 35,
+    "carbs": 5,
+    "fiber": 17,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "257g",
+        "calories": 183,
+        "cost": 105000
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "101g",
+        "calories": 95,
+        "cost": 35000
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "dlva69qlh",
+    "title": "Đậu Hũ Kho Hành Tây",
+    "description": "Món đậu hũ kho hành tây vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 26,
+    "servings": 1,
+    "cost": 116000,
+    "calories": 400,
+    "protein": 51,
+    "fat": 40,
+    "carbs": 9,
+    "fiber": 15,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "365g",
+        "calories": 215,
+        "cost": 69600
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "133g",
+        "calories": 27,
+        "cost": 23200
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-15T09:43:16.193Z"
+  },
+  {
+    "id": "4oic5w7m0",
+    "title": "Mực Nướng Nấm Kim Châm",
+    "description": "Món mực nướng nấm kim châm vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 43,
+    "servings": 1,
+    "cost": 67000,
+    "calories": 352,
+    "protein": 13,
+    "fat": 21,
+    "carbs": 30,
+    "fiber": 3,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "291g",
+        "calories": 207,
+        "cost": 40200
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "148g",
+        "calories": 53,
+        "cost": 13400
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-14T09:43:16.193Z"
+  },
+  {
+    "id": "7iky1d7t6",
+    "title": "Mực Chiên Cà Rốt",
+    "description": "Món mực chiên cà rốt vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 52,
+    "servings": 4,
+    "cost": 177000,
+    "calories": 339,
+    "protein": 71,
+    "fat": 6,
+    "carbs": 31,
+    "fiber": 12,
+    "category": "budget",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "225g",
+        "calories": 134,
+        "cost": 106200
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "109g",
+        "calories": 24,
+        "cost": 35400
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-14T09:43:16.193Z"
+  },
+  {
+    "id": "g1zuqq833",
+    "title": "Thịt Bò Trộn Salad Cà Rốt",
+    "description": "Món thịt bò trộn salad cà rốt vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 53,
+    "servings": 5,
+    "cost": 135000,
+    "calories": 313,
+    "protein": 60,
+    "fat": 38,
+    "carbs": 6,
+    "fiber": 9,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "478g",
+        "calories": 208,
+        "cost": 81000
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "131g",
+        "calories": 47,
+        "cost": 27000
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-13T09:43:16.193Z"
+  },
+  {
+    "id": "rc84c992j",
+    "title": "Đậu Hũ Chiên Cà Rốt",
+    "description": "Món đậu hũ chiên cà rốt vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 52,
+    "servings": 3,
+    "cost": 57000,
+    "calories": 798,
+    "protein": 75,
+    "fat": 18,
+    "carbs": 9,
+    "fiber": 1,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "334g",
+        "calories": 191,
+        "cost": 34200
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "175g",
+        "calories": 58,
+        "cost": 11400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-12T09:43:16.193Z"
+  },
+  {
+    "id": "dn6fem178",
+    "title": "Đậu Hũ Hấp Ớt Chuông",
+    "description": "Món đậu hũ hấp ớt chuông vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 17,
+    "servings": 6,
+    "cost": 182000,
+    "calories": 466,
+    "protein": 63,
+    "fat": 48,
+    "carbs": 31,
+    "fiber": 20,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "314g",
+        "calories": 282,
+        "cost": 109200
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "252g",
+        "calories": 40,
+        "cost": 36400
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-12T09:43:16.193Z"
+  },
+  {
+    "id": "kf325nhqc",
+    "title": "Cá Lóc Trộn Salad Ớt Chuông",
+    "description": "Món cá lóc trộn salad ớt chuông vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 51,
+    "servings": 6,
+    "cost": 110000,
+    "calories": 349,
+    "protein": 79,
+    "fat": 25,
+    "carbs": 20,
+    "fiber": 1,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "228g",
+        "calories": 187,
+        "cost": 66000
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "208g",
+        "calories": 55,
+        "cost": 22000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-12T09:43:16.193Z"
+  },
+  {
+    "id": "3yjq5kn4x",
+    "title": "Tôm Hấp Hành Tây",
+    "description": "Món tôm hấp hành tây vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 33,
+    "servings": 4,
+    "cost": 173000,
+    "calories": 466,
+    "protein": 50,
+    "fat": 25,
+    "carbs": 38,
+    "fiber": 15,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "315g",
+        "calories": 232,
+        "cost": 103800
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "152g",
+        "calories": 92,
+        "cost": 34600
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-11T09:43:16.193Z"
+  },
+  {
+    "id": "nyhv0344x",
+    "title": "Tôm Nướng Hành Tây",
+    "description": "Món tôm nướng hành tây vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 12,
+    "servings": 1,
+    "cost": 165000,
+    "calories": 378,
+    "protein": 14,
+    "fat": 11,
+    "carbs": 48,
+    "fiber": 14,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "216g",
+        "calories": 367,
+        "cost": 99000
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "169g",
+        "calories": 48,
+        "cost": 33000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-11T09:43:16.193Z"
+  },
+  {
+    "id": "muy42c12y",
+    "title": "Tôm Xào Hành Tây",
+    "description": "Món tôm xào hành tây vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 20,
+    "servings": 5,
+    "cost": 162000,
+    "calories": 444,
+    "protein": 65,
+    "fat": 38,
+    "carbs": 18,
+    "fiber": 17,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "230g",
+        "calories": 302,
+        "cost": 97200
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "183g",
+        "calories": 37,
+        "cost": 32400
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-11T09:43:16.193Z"
+  },
+  {
+    "id": "eyw8befy0",
+    "title": "Cá Hồi Nướng Bông Cải Xanh",
+    "description": "Món cá hồi nướng bông cải xanh vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1569058242253-1cdfcc36c57f?w=600&auto=format&fit=crop",
+    "cook_time": 51,
+    "servings": 4,
+    "cost": 102000,
+    "calories": 337,
+    "protein": 26,
+    "fat": 6,
+    "carbs": 16,
+    "fiber": 20,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "407g",
+        "calories": 242,
+        "cost": 61200
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "181g",
+        "calories": 71,
+        "cost": 20400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-11T09:43:16.193Z"
+  },
+  {
+    "id": "g4qd20afb",
+    "title": "Tôm Kho Măng Tây",
+    "description": "Món tôm kho măng tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 45,
+    "servings": 4,
+    "cost": 123000,
+    "calories": 640,
+    "protein": 32,
+    "fat": 34,
+    "carbs": 26,
+    "fiber": 18,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "290g",
+        "calories": 370,
+        "cost": 73800
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "183g",
+        "calories": 37,
+        "cost": 24600
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-11T09:43:16.193Z"
+  },
+  {
+    "id": "unffhg28y",
+    "title": "Thịt Heo Hấp Ớt Chuông",
+    "description": "Món thịt heo hấp ớt chuông vô cùng ăn kèm cơm. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 55,
+    "servings": 4,
+    "cost": 114000,
+    "calories": 469,
+    "protein": 18,
+    "fat": 32,
+    "carbs": 49,
+    "fiber": 3,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "264g",
+        "calories": 151,
+        "cost": 68400
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "136g",
+        "calories": 74,
+        "cost": 22800
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-11T09:43:16.193Z"
+  },
+  {
+    "id": "3stc3hy4l",
+    "title": "Sườn Non Xào Rau Muống",
+    "description": "Món sườn non xào rau muống vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 38,
+    "servings": 5,
+    "cost": 80000,
+    "calories": 673,
+    "protein": 79,
+    "fat": 16,
+    "carbs": 36,
+    "fiber": 8,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "348g",
+        "calories": 359,
+        "cost": 48000
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "157g",
+        "calories": 98,
+        "cost": 16000
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "uog6s9x2w",
+    "title": "Thịt Gà Xào Rau Cải",
+    "description": "Món thịt gà xào rau cải vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 12,
+    "servings": 3,
+    "cost": 45000,
+    "calories": 418,
+    "protein": 49,
+    "fat": 21,
+    "carbs": 45,
+    "fiber": 2,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "268g",
+        "calories": 124,
+        "cost": 27000
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "297g",
+        "calories": 24,
+        "cost": 9000
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "bk4zoiot2",
+    "title": "Tôm Nướng Nấm Kim Châm",
+    "description": "Món tôm nướng nấm kim châm vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 19,
+    "servings": 4,
+    "cost": 175000,
+    "calories": 525,
+    "protein": 77,
+    "fat": 39,
+    "carbs": 27,
+    "fiber": 19,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "226g",
+        "calories": 155,
+        "cost": 105000
+      },
+      {
+        "name": "Nấm Kim Châm",
+        "amount": "227g",
+        "calories": 60,
+        "cost": 35000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Nấm Kim Châm. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Nấm Kim Châm vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "lp2zhet6n",
+    "title": "Thịt Bò Kho Bông Cải Xanh",
+    "description": "Món thịt bò kho bông cải xanh vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 51,
+    "servings": 2,
+    "cost": 156000,
+    "calories": 598,
+    "protein": 30,
+    "fat": 35,
+    "carbs": 35,
+    "fiber": 6,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "272g",
+        "calories": 108,
+        "cost": 93600
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "185g",
+        "calories": 55,
+        "cost": 31200
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "k37bm1jom",
+    "title": "Thịt Bò Trộn Salad Măng Tây",
+    "description": "Món thịt bò trộn salad măng tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 42,
+    "servings": 2,
+    "cost": 65000,
+    "calories": 684,
+    "protein": 11,
+    "fat": 9,
+    "carbs": 19,
+    "fiber": 11,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "422g",
+        "calories": 348,
+        "cost": 39000
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "149g",
+        "calories": 57,
+        "cost": 13000
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "0h3k9tz8q",
+    "title": "Mực Hấp Rau Muống",
+    "description": "Món mực hấp rau muống vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 39,
+    "servings": 3,
+    "cost": 187000,
+    "calories": 674,
+    "protein": 62,
+    "fat": 47,
+    "carbs": 31,
+    "fiber": 20,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "241g",
+        "calories": 358,
+        "cost": 112200
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "192g",
+        "calories": 41,
+        "cost": 37400
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "0xzv3ui7m",
+    "title": "Thịt Gà Kho Bông Cải Xanh",
+    "description": "Món thịt gà kho bông cải xanh vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 11,
+    "servings": 4,
+    "cost": 186000,
+    "calories": 583,
+    "protein": 11,
+    "fat": 47,
+    "carbs": 6,
+    "fiber": 0,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "410g",
+        "calories": 119,
+        "cost": 111600
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "262g",
+        "calories": 87,
+        "cost": 37200
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "cg10k8iqc",
+    "title": "Tôm Chiên Hành Tây",
+    "description": "Món tôm chiên hành tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 18,
+    "servings": 2,
+    "cost": 77000,
+    "calories": 622,
+    "protein": 95,
+    "fat": 30,
+    "carbs": 28,
+    "fiber": 12,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "451g",
+        "calories": 115,
+        "cost": 46200
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "174g",
+        "calories": 57,
+        "cost": 15400
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-10T09:43:16.193Z"
+  },
+  {
+    "id": "64bvhg84n",
+    "title": "Tôm Kho Bông Cải Xanh",
+    "description": "Món tôm kho bông cải xanh vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 33,
+    "servings": 5,
+    "cost": 57000,
+    "calories": 590,
+    "protein": 99,
+    "fat": 21,
+    "carbs": 31,
+    "fiber": 19,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "268g",
+        "calories": 192,
+        "cost": 34200
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "145g",
+        "calories": 32,
+        "cost": 11400
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-09T09:43:16.193Z"
+  },
+  {
+    "id": "4ekovx14a",
+    "title": "Sườn Non Trộn Salad Hành Tây",
+    "description": "Món sườn non trộn salad hành tây vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 18,
+    "servings": 5,
+    "cost": 183000,
+    "calories": 344,
+    "protein": 36,
+    "fat": 25,
+    "carbs": 21,
+    "fiber": 19,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Sườn Non",
+        "amount": "254g",
+        "calories": 263,
+        "cost": 109800
+      },
+      {
+        "name": "Hành Tây",
+        "amount": "110g",
+        "calories": 68,
+        "cost": 36600
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Sườn Non và Hành Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Sườn Non vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Hành Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-09T09:43:16.193Z"
+  },
+  {
+    "id": "z8rltlf5e",
+    "title": "Tôm Hấp Ớt Chuông",
+    "description": "Món tôm hấp ớt chuông vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 28,
+    "servings": 6,
+    "cost": 167000,
+    "calories": 721,
+    "protein": 47,
+    "fat": 46,
+    "carbs": 17,
+    "fiber": 6,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "328g",
+        "calories": 118,
+        "cost": 100200
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "246g",
+        "calories": 70,
+        "cost": 33400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-08T09:43:16.193Z"
+  },
+  {
+    "id": "hc2a3nc8o",
+    "title": "Thịt Gà Hấp Rau Cải",
+    "description": "Món thịt gà hấp rau cải vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 36,
+    "servings": 3,
+    "cost": 165000,
+    "calories": 796,
+    "protein": 21,
+    "fat": 35,
+    "carbs": 50,
+    "fiber": 5,
+    "category": "budget",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "323g",
+        "calories": 372,
+        "cost": 99000
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "196g",
+        "calories": 81,
+        "cost": 33000
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-08T09:43:16.193Z"
+  },
+  {
+    "id": "ypcsi9f6q",
+    "title": "Cá Lóc Kho Ớt Chuông",
+    "description": "Món cá lóc kho ớt chuông vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 15,
+    "servings": 1,
+    "cost": 89000,
+    "calories": 704,
+    "protein": 80,
+    "fat": 11,
+    "carbs": 18,
+    "fiber": 20,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "340g",
+        "calories": 136,
+        "cost": 53400
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "249g",
+        "calories": 50,
+        "cost": 17800
+      },
+      {
+        "name": "Tỏi",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-08T09:43:16.192Z"
+  },
+  {
+    "id": "i707fc1xl",
+    "title": "Thịt Gà Kho Măng Tây",
+    "description": "Món thịt gà kho măng tây vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 39,
+    "servings": 2,
+    "cost": 112000,
+    "calories": 625,
+    "protein": 19,
+    "fat": 43,
+    "carbs": 39,
+    "fiber": 11,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "369g",
+        "calories": 261,
+        "cost": 67200
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "154g",
+        "calories": 30,
+        "cost": 22400
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-07T09:43:16.193Z"
+  },
+  {
+    "id": "1i248fr94",
+    "title": "Đậu Hũ Trộn Salad Măng Tây",
+    "description": "Món đậu hũ trộn salad măng tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1563379926898-05f4575a401b?w=600&auto=format&fit=crop",
+    "cook_time": 39,
+    "servings": 4,
+    "cost": 168000,
+    "calories": 348,
+    "protein": 39,
+    "fat": 38,
+    "carbs": 33,
+    "fiber": 11,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Đậu Hũ",
+        "amount": "352g",
+        "calories": 221,
+        "cost": 100800
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "286g",
+        "calories": 67,
+        "cost": 33600
+      },
+      {
+        "name": "Bột nọt",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Đậu Hũ và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Đậu Hũ vào Trộn Salad trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-07T09:43:16.193Z"
+  },
+  {
+    "id": "fwfa4kvnw",
+    "title": "Thịt Bò Chiên Rau Muống",
+    "description": "Món thịt bò chiên rau muống vô cùng đậm đà hương vị. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 26,
+    "servings": 2,
+    "cost": 76000,
+    "calories": 388,
+    "protein": 64,
+    "fat": 40,
+    "carbs": 9,
+    "fiber": 19,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Bò",
+        "amount": "433g",
+        "calories": 314,
+        "cost": 45600
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "220g",
+        "calories": 39,
+        "cost": 15200
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Bò và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Bò vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-07T09:43:16.193Z"
+  },
+  {
+    "id": "zcq1gq6vc",
+    "title": "Cá Lóc Kho Cà Rốt",
+    "description": "Món cá lóc kho cà rốt vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 20,
+    "servings": 6,
+    "cost": 86000,
+    "calories": 220,
+    "protein": 71,
+    "fat": 30,
+    "carbs": 6,
+    "fiber": 13,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "388g",
+        "calories": 216,
+        "cost": 51600
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "121g",
+        "calories": 82,
+        "cost": 17200
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Kho trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-07T09:43:16.193Z"
+  },
+  {
+    "id": "eceef18pa",
+    "title": "Thịt Heo Xào Rau Cải",
+    "description": "Món thịt heo xào rau cải vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 22,
+    "servings": 1,
+    "cost": 85000,
+    "calories": 602,
+    "protein": 99,
+    "fat": 30,
+    "carbs": 45,
+    "fiber": 7,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "490g",
+        "calories": 252,
+        "cost": 51000
+      },
+      {
+        "name": "Rau Cải",
+        "amount": "195g",
+        "calories": 84,
+        "cost": 17000
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Rau Cải. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Cải vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-06T09:43:16.193Z"
+  },
+  {
+    "id": "le3hgak0u",
+    "title": "Thịt Gà Nướng Rau Muống",
+    "description": "Món thịt gà nướng rau muống vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600&auto=format&fit=crop",
+    "cook_time": 15,
+    "servings": 6,
+    "cost": 182000,
+    "calories": 301,
+    "protein": 19,
+    "fat": 33,
+    "carbs": 6,
+    "fiber": 7,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Thịt Gà",
+        "amount": "468g",
+        "calories": 294,
+        "cost": 109200
+      },
+      {
+        "name": "Rau Muống",
+        "amount": "264g",
+        "calories": 22,
+        "cost": 36400
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Gà và Rau Muống. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Gà vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Rau Muống vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-06T09:43:16.193Z"
+  },
+  {
+    "id": "7z3ztjxxd",
+    "title": "Cá Lóc Xào Măng Tây",
+    "description": "Món cá lóc xào măng tây vô cùng nhanh gọn lẹ. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&auto=format&fit=crop",
+    "cook_time": 14,
+    "servings": 1,
+    "cost": 103000,
+    "calories": 250,
+    "protein": 91,
+    "fat": 28,
+    "carbs": 37,
+    "fiber": 15,
+    "category": "quick_meal",
+    "ingredients": [
+      {
+        "name": "Cá Lóc",
+        "amount": "499g",
+        "calories": 195,
+        "cost": 61800
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "114g",
+        "calories": 70,
+        "cost": 20600
+      },
+      {
+        "name": "Tiêu",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Lóc và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Lóc vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-06T09:43:16.193Z"
+  },
+  {
+    "id": "vj72xmuc8",
+    "title": "Cá Hồi Xào Măng Tây",
+    "description": "Món cá hồi xào măng tây vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&auto=format&fit=crop",
+    "cook_time": 24,
+    "servings": 6,
+    "cost": 164000,
+    "calories": 659,
+    "protein": 59,
+    "fat": 33,
+    "carbs": 27,
+    "fiber": 17,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "366g",
+        "calories": 236,
+        "cost": 98400
+      },
+      {
+        "name": "Măng Tây",
+        "amount": "227g",
+        "calories": 29,
+        "cost": 32800
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Măng Tây. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Măng Tây vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-06T09:43:16.193Z"
+  },
+  {
+    "id": "ts5x8ysuh",
+    "title": "Tôm Xào Bông Cải Xanh",
+    "description": "Món tôm xào bông cải xanh vô cùng tuyệt vời cho mùa mưa. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&auto=format&fit=crop",
+    "cook_time": 35,
+    "servings": 2,
+    "cost": 184000,
+    "calories": 322,
+    "protein": 93,
+    "fat": 16,
+    "carbs": 44,
+    "fiber": 20,
+    "category": "gym",
+    "ingredients": [
+      {
+        "name": "Tôm",
+        "amount": "275g",
+        "calories": 165,
+        "cost": 110400
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "279g",
+        "calories": 90,
+        "cost": 36800
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Tôm và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Tôm vào Xào trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-06T09:43:16.193Z"
+  },
+  {
+    "id": "7tw7yyow6",
+    "title": "Cá Hồi Nướng Ớt Chuông",
+    "description": "Món cá hồi nướng ớt chuông vô cùng phù hợp ăn kiêng. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&auto=format&fit=crop",
+    "cook_time": 43,
+    "servings": 6,
+    "cost": 164000,
+    "calories": 324,
+    "protein": 42,
+    "fat": 11,
+    "carbs": 17,
+    "fiber": 14,
+    "category": "vegetarian",
+    "ingredients": [
+      {
+        "name": "Cá Hồi",
+        "amount": "227g",
+        "calories": 108,
+        "cost": 98400
+      },
+      {
+        "name": "Ớt Chuông",
+        "amount": "291g",
+        "calories": 74,
+        "cost": 32800
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Cá Hồi và Ớt Chuông. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Cá Hồi vào Nướng trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Ớt Chuông vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-06T09:43:16.193Z"
+  },
+  {
+    "id": "1jfrbica0",
+    "title": "Mực Chiên Bông Cải Xanh",
+    "description": "Món mực chiên bông cải xanh vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 20,
+    "servings": 4,
+    "cost": 184000,
+    "calories": 389,
+    "protein": 56,
+    "fat": 47,
+    "carbs": 26,
+    "fiber": 6,
+    "category": "healthy",
+    "ingredients": [
+      {
+        "name": "Mực",
+        "amount": "348g",
+        "calories": 240,
+        "cost": 110400
+      },
+      {
+        "name": "Bông Cải Xanh",
+        "amount": "113g",
+        "calories": 28,
+        "cost": 36800
+      },
+      {
+        "name": "Đường",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Mực và Bông Cải Xanh. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Mực vào Chiên trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Bông Cải Xanh vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-05T09:43:16.193Z"
+  },
+  {
+    "id": "3y9fddyzf",
+    "title": "Thịt Heo Hấp Cà Rốt",
+    "description": "Món thịt heo hấp cà rốt vô cùng dành cho bữa tối. Mọi người cùng thử nhé!",
+    "image_url": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&auto=format&fit=crop",
+    "cook_time": 42,
+    "servings": 1,
+    "cost": 149000,
+    "calories": 227,
+    "protein": 89,
+    "fat": 12,
+    "carbs": 31,
+    "fiber": 19,
+    "category": "low_fat",
+    "ingredients": [
+      {
+        "name": "Thịt Heo",
+        "amount": "277g",
+        "calories": 306,
+        "cost": 89400
+      },
+      {
+        "name": "Cà Rốt",
+        "amount": "293g",
+        "calories": 86,
+        "cost": 29800
+      },
+      {
+        "name": "Hành tím",
+        "amount": "1 muỗng",
+        "calories": 10,
+        "cost": 5000
+      }
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Sơ chế sạch sẽ Thịt Heo và Cà Rốt. Cắt miếng vừa ăn."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Bắc chảo lên bếp, phi thơm hành tỏi. Cho Thịt Heo vào Hấp trước."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Thêm Cà Rốt vào, nêm nếm gia vị vừa ăn. Sẵn sàng thưởng thức!"
+      }
+    ],
+    "created_date": "2026-03-05T09:43:16.193Z"
+  }
+]
