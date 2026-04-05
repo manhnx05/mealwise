@@ -14,13 +14,13 @@ const ADMIN_EMAIL = 'nguyetuyetak2005@gmail.com';
 
 const categories = [
   { value: 'all', label: 'Tất cả' },
-  { value: 'quick_meal', label: 'Nhanh gọn' },
-  { value: 'budget', label: 'Tiết kiệm' },
-  { value: 'healthy', label: 'Lành mạnh' },
-  { value: 'low_fat', label: 'Ít dầu mỡ' },
-  { value: 'weight_loss', label: 'Giảm cân' },
-  { value: 'gym', label: 'Gym' },
-  { value: 'vegetarian', label: 'Chay' },
+  { value: 'Nhanh gọn', label: 'Nhanh gọn' },
+  { value: 'Tiết kiệm', label: 'Tiết kiệm' },
+  { value: 'Lành mạnh', label: 'Lành mạnh' },
+  { value: 'Ít dầu mỡ', label: 'Ít dầu mỡ' },
+  { value: 'Giảm cân', label: 'Giảm cân' },
+  { value: 'Gym', label: 'Gym' },
+  { value: 'Chay', label: 'Chay' },
 ];
 
 export default function Recipes() {
@@ -40,9 +40,9 @@ export default function Recipes() {
     queryFn: () => base44.entities.Recipe.list('-created_date', 50),
   });
 
-  const filtered = recipes.filter(r => {
+  const filtered = recipes.filter((r: any) => {
     const matchSearch = !search || r.title?.toLowerCase().includes(search.toLowerCase());
-    const matchCat = category === 'all' || r.category === category;
+    const matchCat = category === 'all' || r.category === category || (r.tags && r.tags.includes(category));
     return matchSearch && matchCat;
   });
 
