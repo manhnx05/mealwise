@@ -30,19 +30,43 @@ RECIPES = [
       "Ít dầu mỡ",
       "Lành mạnh"
     ],
-    "image_url": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Ức gà",
+        "amount": "300g"
+      },
+      {
+        "name": "Gừng",
+        "amount": "1 củ nhỏ"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 nhánh"
+      },
+      {
+        "name": "Muối",
+        "amount": "1 muỗng cafe"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Ức gà rửa sạch, sát muối mỏng để khử mùi."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Cho ức gà vào nồi nước lạnh, thêm gừng thái lát và hành lá, luộc chín trong 12 phút."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Vớt ức gà ra ngâm vào thố nước đá để thịt săn lại."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Dùng tay xé phay thịt gà thành sợi vừa ăn. Thưởng thức với muối tiêu chanh."
       }
-    ]
+    ],
+    "image_url": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600"
   },
   {
     "title": "Salad ức gà",
@@ -61,19 +85,47 @@ RECIPES = [
       "Gym",
       "Nhanh gọn"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/330px-Salad_platter.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Xà lách",
+        "amount": "200g"
+      },
+      {
+        "name": "Ức gà",
+        "amount": "200g"
+      },
+      {
+        "name": "Cà chua bi",
+        "amount": "100g"
+      },
+      {
+        "name": "Dầu olive",
+        "amount": "1 muỗng canh"
+      },
+      {
+        "name": "Sốt mè rang",
+        "amount": "2 muỗng canh"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Ức gà ướp chút muối tiêu, áp chảo với dầu olive mỗi mặt 3 phút cho chín vàng."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Rửa sạch xà lách, ngắt khúc vừa ăn. Cà chua bi cắt đôi."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Ức gà nguội bớt, thái lát mỏng."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Trộn đều xà lách, cà chua, gà và rưới nước xốt mè rang lên trên."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Salad_platter.jpg/330px-Salad_platter.jpg"
   },
   {
     "title": "Thăn bò nướng măng tây",
@@ -91,19 +143,47 @@ RECIPES = [
       "Gym",
       "Lành mạnh"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saigon_Pho_with_pork.jpg/330px-Saigon_Pho_with_pork.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Thịt thăn bò",
+        "amount": "300g"
+      },
+      {
+        "name": "Măng tây",
+        "amount": "200g"
+      },
+      {
+        "name": "Tỏi",
+        "amount": "3 tép"
+      },
+      {
+        "name": "Bơ lạt",
+        "amount": "10g"
+      },
+      {
+        "name": "Tiêu đen hạt",
+        "amount": "1 muỗng cafe"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Bò ướp với muối, tiêu xay nghiền và tỏi băm. Cắt bỏ rễ già của măng tây."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Làm nóng chảo, cho bơ vào đun chảy. Cho thăn bò vào áp chảo, mỗi mặt 2-3 phút cho chín vừa (Medium rare)."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Lấy thịt bò ra để nghỉ 5 phút. Dùng chảo đó xào nhanh măng tây tỏi thơm trong 3 phút."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Thái lát thịt bò dọn dùng kèm măng tây xào."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saigon_Pho_with_pork.jpg/330px-Saigon_Pho_with_pork.jpg"
   },
   {
     "title": "Cơm gạo lứt thịt băm",
@@ -122,19 +202,43 @@ RECIPES = [
       "Gym",
       "Tiết kiệm"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sushi_%2826478755502%29.jpg/330px-Sushi_%2826478755502%29.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Gạo lứt đỏ",
+        "amount": "100g"
+      },
+      {
+        "name": "Thịt heo nạc băm",
+        "amount": "150g"
+      },
+      {
+        "name": "Cà rốt băm",
+        "amount": "50g"
+      },
+      {
+        "name": "Hành lá",
+        "amount": "2 nhánh"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Ngâm gạo lứt 2 tiếng trước khi nấu. Nấu chín thành cơm gạo lứt tơi xốp."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Làm nóng 1 chút xíu dầu ăn, phi thơm hành lá."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Cho thịt nạc băm và cà rốt vào đảo xém vàng, nêm chút hạt nêm và tiêu rí."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Xúc cơm dọn ra bát, rưới thịt băm xào lên ăn nóng."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sushi_%2826478755502%29.jpg/330px-Sushi_%2826478755502%29.jpg"
   },
   {
     "title": "Đậu hũ non xốt cà chua",
@@ -154,19 +258,43 @@ RECIPES = [
       "Ít dầu mỡ",
       "Nhanh gọn"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Canhchua2.jpg/330px-Canhchua2.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Đậu hũ non",
+        "amount": "2 hộp"
+      },
+      {
+        "name": "Cà chua",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Hành ngò",
+        "amount": "1 mớ"
+      },
+      {
+        "name": "Nước tương",
+        "amount": "1 muỗng canh"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Đậu hũ non lấy ra khỏi hộp, cắt miếng vuông vuông."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Cà chua khía chữ thập, luộc lột trần vỏ tước vứt đi, thái hạt lựu băm nhỏ."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Đun nóng dầu ăn rắc hành phi, đổ vụn cà chua xào thành xốt đặc mịn. Nêm nước tương bột ngọt."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Thả đậu non vào đun riu riu 3 phút cho thấm. Rắc hành ngò thái nhỏ lên."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Canhchua2.jpg/330px-Canhchua2.jpg"
   },
   {
     "title": "Rau luộc kho quẹt chay",
@@ -185,50 +313,47 @@ RECIPES = [
       "Lành mạnh",
       "Ít dầu mỡ"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saigon_Pho_with_pork.jpg/330px-Saigon_Pho_with_pork.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Nấm hương khô",
+        "amount": "50g"
+      },
+      {
+        "name": "Đậu phộng rang",
+        "amount": "30g"
+      },
+      {
+        "name": "Rau bắp cải",
+        "amount": "1/2 cái"
+      },
+      {
+        "name": "Cà rốt",
+        "amount": "1 củ"
+      },
+      {
+        "name": "Xì dầu",
+        "amount": "Tùy ý"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Canh rong biển đậu non",
-    "description": "Giải nhiệt, nấu trong 5 phút.",
-    "cook_time": 5,
-    "servings": 2,
-    "cost": 20000,
-    "calories": 80,
-    "protein": 6,
-    "fat": 1,
-    "fiber": 3,
-    "carbs": 10,
-    "category": "Nhanh gọn",
-    "tags": [
-      "Nhanh gọn",
-      "Chay",
-      "Ít dầu mỡ"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg/330px-Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg",
-    "ingredients": [
+        "instruction": "Rau bắp cải thái miếng vuông, cà rốt thái dọc khúc. Luộc chần với xíu muối."
+      },
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "step_number": 2,
+        "instruction": "Nấm hương ngâm nở, xả kiệt nước rồi băm vụn nhuyễn."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Phi dầu, cho nấm băm vào đảo cho khô xém, thêm xì dầu, đường thốt nốt đun sền sệt kẹo lại."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Trộn thêm đậu phộng rang giã rối. Cạn nước sốt là thu được kho quẹt siêu keo chấm rau luộc."
       }
     ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saigon_Pho_with_pork.jpg/330px-Saigon_Pho_with_pork.jpg"
   },
   {
     "title": "Trứng rán ngải cứu",
@@ -246,19 +371,43 @@ RECIPES = [
       "Tiết kiệm",
       "Nhanh gọn"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cha_gio.jpg/330px-Cha_gio.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Trứng gà",
+        "amount": "3 quả"
+      },
+      {
+        "name": "Rau ngải cứu",
+        "amount": "1 nắm lớn"
+      },
+      {
+        "name": "Dầu ăn",
+        "amount": "2 muỗng canh"
+      },
+      {
+        "name": "Nước mắm",
+        "amount": "1 muỗng cafe"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Ngải cứu lặt lá non, thái thật vụn cho tơi."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Trứng gà đập tan ra bát, đổ ngải cứu vào, nêm thìa nhỏ nước mắm, đánh tung bọt."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Đun nóng chảo dầu sôi già."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Thả trứng ngải vào tráng đều, lật mặt khi ngửi thấy mùi thơm. Không đun quá lâu làm khô trứng."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cha_gio.jpg/330px-Cha_gio.jpg"
   },
   {
     "title": "Mướp xào giá đỗ",
@@ -277,19 +426,39 @@ RECIPES = [
       "Nhanh gọn",
       "Ít dầu mỡ"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bittergourd.jpg/330px-Bittergourd.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Mướp hương",
+        "amount": "2 trái"
+      },
+      {
+        "name": "Giá đỗ xanh",
+        "amount": "200g"
+      },
+      {
+        "name": "Tỏi lột vảy",
+        "amount": "4 tép"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Mướp nạo bỏ vỏ xanh, thái xéo vát chanh dày cỡ nửa lóng tay."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Dập tỏi, phi thơm trên chảo bằng dầu lửa lớn."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Trút mướp thái miếng vào xào lướt 2 phút cho tái."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Bỏ ngay giá đỗ vào xào nhanh tắt lửa luôn, nêm nếm gia vị ngay thì giá sẽ giòn ngọt mọng nước."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bittergourd.jpg/330px-Bittergourd.jpg"
   },
   {
     "title": "Cá hồi áp chảo sa kê",
@@ -307,200 +476,43 @@ RECIPES = [
       "Lành mạnh",
       "Nhanh gọn"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Da_Lat_-_Viet_Nam.jpg/330px-Da_Lat_-_Viet_Nam.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Nguyên miến cá hồi",
+        "amount": "250g"
+      },
+      {
+        "name": "Muối tiêu",
+        "amount": "1 nhúm"
+      },
+      {
+        "name": "Sake hoặc Vang trắng",
+        "amount": "1 chén nhỏ"
+      },
+      {
+        "name": "Bơ",
+        "amount": "1 lát"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Yến mạch trộn sữa chua trái cây",
-    "description": "Bữa sáng hoàn hảo đốt mỡ.",
-    "cook_time": 5,
-    "servings": 1,
-    "cost": 30000,
-    "calories": 250,
-    "protein": 10,
-    "fat": 5,
-    "fiber": 6,
-    "carbs": 40,
-    "category": "Giảm cân",
-    "tags": [
-      "Giảm cân",
-      "Nhanh gọn",
-      "Lành mạnh"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Baobob_tree.jpg/330px-Baobob_tree.jpg",
-    "ingredients": [
+        "instruction": "Cá hồi thấm khô bằng giấy bếp dính sạch rỉ nước, xát viền muối tiêu quanh thân."
+      },
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "step_number": 2,
+        "instruction": "Áp chảo cá từ phần mặt da xuống dưới đun ở lửa nhỏ vừa cho da cá hồi chảy mỡ ra."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Lật miếng cá khi mặt da đã giòn, thêm bơ lạt đun và rót chén rượu sake vào chảo để lấy vị."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Cá chín tới tái hồng là gắp ra dùng nóng, đổ lớp sauce từ bơ rượu lên trên miến cá."
       }
     ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Bún bò xào xả ớt",
-    "description": "Hương vị đậm đà không ngán.",
-    "cook_time": 20,
-    "servings": 2,
-    "cost": 50000,
-    "calories": 450,
-    "protein": 25,
-    "fat": 15,
-    "fiber": 4,
-    "carbs": 50,
-    "category": "Gym",
-    "tags": [
-      "Thịt bò",
-      "Nhanh gọn"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/330px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
-    "ingredients": [
-      {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
-      }
-    ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Canh khổ qua nhồi thịt",
-    "description": "Giúp thanh lọc cơ thể.",
-    "cook_time": 45,
-    "servings": 4,
-    "cost": 60000,
-    "calories": 200,
-    "protein": 18,
-    "fat": 10,
-    "fiber": 4,
-    "carbs": 8,
-    "category": "Lành mạnh",
-    "tags": [
-      "Lành mạnh",
-      "Ít dầu mỡ"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Canh_kh%E1%BB%95_qua.JPG/330px-Canh_kh%E1%BB%95_qua.JPG",
-    "ingredients": [
-      {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
-      }
-    ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Nấm tiên xào sả ớt",
-    "description": "Nấm giòn sần sật chay.",
-    "cook_time": 15,
-    "servings": 3,
-    "cost": 25000,
-    "calories": 120,
-    "protein": 8,
-    "fat": 4,
-    "fiber": 5,
-    "carbs": 12,
-    "category": "Chay",
-    "tags": [
-      "Chay",
-      "Nhanh gọn"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saigon_Pho_with_pork.jpg/330px-Saigon_Pho_with_pork.jpg",
-    "ingredients": [
-      {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
-      }
-    ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Cháo yến mạch ức gà băm",
-    "description": "Cháo dễ thuỷ phân nhanh, ấm bụng buổi sáng.",
-    "cook_time": 10,
-    "servings": 1,
-    "cost": 25000,
-    "calories": 280,
-    "protein": 22,
-    "fat": 6,
-    "fiber": 7,
-    "carbs": 30,
-    "category": "Giảm cân",
-    "tags": [
-      "Giảm cân",
-      "Gym",
-      "Nhanh gọn"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flaming_wok_by_KellyB_in_Bountiful%2C_Utah.jpg/330px-Flaming_wok_by_KellyB_in_Bountiful%2C_Utah.jpg",
-    "ingredients": [
-      {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
-      }
-    ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Phở bò",
-    "description": "Truyền thống, dùng nước hầm ngon.",
-    "cook_time": 180,
-    "servings": 4,
-    "cost": 80000,
-    "calories": 450,
-    "protein": 28,
-    "fat": 12,
-    "fiber": 2,
-    "carbs": 55,
-    "category": "Tất cả",
-    "tags": [
-      "Bò"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/330px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
-    "ingredients": [
-      {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
-      }
-    ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Da_Lat_-_Viet_Nam.jpg/330px-Da_Lat_-_Viet_Nam.jpg"
   },
   {
     "title": "Bún bò Huế",
@@ -517,19 +529,47 @@ RECIPES = [
     "tags": [
       "Bò"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bun-Bo-Hue-from-Huong-Giang-2011.jpg/330px-Bun-Bo-Hue-from-Huong-Giang-2011.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Bún sợi lớn",
+        "amount": "500g"
+      },
+      {
+        "name": "Thịt bò nạm",
+        "amount": "200g"
+      },
+      {
+        "name": "Giò heo",
+        "amount": "4 khoanh"
+      },
+      {
+        "name": "Sả cây",
+        "amount": "5 cây"
+      },
+      {
+        "name": "Mắm ruốc",
+        "amount": "2 muỗng"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Hầm xương ống, giò heo, sả đập dập và dứa dập cho ngọt nước."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Mắm ruốc khuấy nước để lóng cặn, chắt phần nước cốt ruốc trong vào nồi để lấy mùi thơm đầm."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Phi điều màu đỏ thêm sả băm ớt băm mỡ tạo váng màu."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Chan nước dùng vào bát bún sợi lớn đã chần, bỏ giò heo, nạm bò thái lát và hành tây."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bun-Bo-Hue-from-Huong-Giang-2011.jpg/330px-Bun-Bo-Hue-from-Huong-Giang-2011.jpg"
   },
   {
     "title": "Bánh mì Việt Nam",
@@ -547,81 +587,100 @@ RECIPES = [
       "Nhanh gọn",
       "Tiết kiệm"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/330px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Ổ bánh mì đặc ruột",
+        "amount": "1 cái"
+      },
+      {
+        "name": "Pate gan heo",
+        "amount": "2 muỗng"
+      },
+      {
+        "name": "Thịt jambon đỏ/chả lụa",
+        "amount": "4 lát"
+      },
+      {
+        "name": "Dưa góp chua ngọt/rau mùi",
+        "amount": "tùy thích"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
+        "instruction": "Làm nóng áp chảo cho vỏ bánh mì nở phồng ròn rụm."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Rạch dọc ổ bánh mỳ, quết dầy pate gan ở mặt trong đáy, rưới xì dầu/sốt cho đậm."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Xếp dưa loong boong jambon chả lụa dàn đều theo thân bánh."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Nhồi dưa chua, ngò rí, chan chút tương ớt Bắc và bóp kín hai mép."
       }
-    ]
+    ],
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/330px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png"
   },
   {
-    "title": "Gỏi cuốn",
-    "description": "Bánh tráng cuộn tôm thịt tươi mát không dầu ăn.",
-    "cook_time": 30,
+    "title": "Phở bò",
+    "description": "Truyền thống, dùng nước hầm ngon.",
+    "cook_time": 180,
     "servings": 4,
-    "cost": 50000,
-    "calories": 180,
-    "protein": 14,
-    "fat": 4,
-    "fiber": 3,
-    "carbs": 25,
-    "category": "Lành mạnh",
+    "cost": 80000,
+    "calories": 450,
+    "protein": 28,
+    "fat": 12,
+    "fiber": 2,
+    "carbs": 55,
+    "category": "Tất cả",
     "tags": [
-      "Lành mạnh",
-      "Ít dầu mỡ",
-      "Giảm cân"
+      "Bò"
     ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Summer_roll.jpg/330px-Summer_roll.jpg",
     "ingredients": [
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "name": "Bánh phở mềm",
+        "amount": "600g"
+      },
+      {
+        "name": "Bò tái, nạm, gầu",
+        "amount": "400g"
+      },
+      {
+        "name": "Xương ống bò",
+        "amount": "1kg"
+      },
+      {
+        "name": "Gói gia vị thảo quả, hồi quế",
+        "amount": "1 gói"
+      },
+      {
+        "name": "Hành gừng nướng",
+        "amount": "Nhiều"
       }
     ],
     "steps": [
       {
         "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
-  },
-  {
-    "title": "Rau muống xào tỏi",
-    "description": "Quen thuộc của mọi gia đình.",
-    "cook_time": 10,
-    "servings": 2,
-    "cost": 15000,
-    "calories": 80,
-    "protein": 4,
-    "fat": 6,
-    "fiber": 3,
-    "carbs": 8,
-    "category": "Tiết kiệm",
-    "tags": [
-      "Tiết kiệm",
-      "Nhanh gọn",
-      "Chay"
-    ],
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ipomoea_aquatica_%282%29.JPG/330px-Ipomoea_aquatica_%282%29.JPG",
-    "ingredients": [
+        "instruction": "Xương gáy bò ngâm muối luộc sơ đổ cặn. Rửa lại xương sạch tinh."
+      },
       {
-        "name": "Nguyên liệu",
-        "amount": "vừa đủ"
+        "step_number": 2,
+        "instruction": "Nướng đen gừng nguyên vỏ, hành củ, bóc lấy phần thịt thơm nhét vào hầm cùng xương cùng với gia vị phở rang khô trong 3 tiếng."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Chần nước trong xương pha thêm nước nắm dặm. Thái mỏng bò tái xoa đi xoa lại."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Xếp phở, chần bò đổ bát to chan nước đang sôi chảo vào là lên váng nhạt."
       }
     ],
-    "steps": [
-      {
-        "step_number": 1,
-        "instruction": "Nấu và thưởng thức."
-      }
-    ]
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/330px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
   }
 ]
 
@@ -633,7 +692,7 @@ COMMUNITY_POSTS = [
     "rating": 4.8,
     "rating_count": 129,
     "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600",
-    "recipe_text": "Tất nhiên là đậu phụ xào sả ớt rồi. Các bạn mua 5k tiền đậu..."
+    "recipe_text": "Tất nhiên là đậu phụ xào sả ớt rồi. Các bạn mua 5k tiền đậu non, 2k sả, mắm đường có sẵn. Làm tơi xả băm phi lên cho đậu nát vào đảo cho cháy xém đáy nồi là hao 3 bát cơm!"
   },
   {
     "title": "Kinh nghiệm giảm 3kg trong 1 tháng",
@@ -642,7 +701,7 @@ COMMUNITY_POSTS = [
     "rating": 5.0,
     "rating_count": 532,
     "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600",
-    "recipe_text": "Bí quyết là ăn ức gà luộc, salad..."
+    "recipe_text": "Bí quyết là ăn ức gà luộc, salad 5 ngày mỗi tuần. Cứ xé phay gà luộc với bắp xú trộn dầu dấm và giấm táo, bảo đảm eo thu gọn lỳ luôn!"
   },
   {
     "title": "Mâm cơm chay cúng rằm mùng 1 đầy đủ ý nghĩa",
@@ -651,7 +710,7 @@ COMMUNITY_POSTS = [
     "rating": 4.9,
     "rating_count": 80,
     "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600",
-    "recipe_text": "Món 1 là nấm xào..."
+    "recipe_text": "Món 1 là nấm đùi gà kho quẹt xì phở. Món 2 là canh rau dền loang lính. Bạn luộc nấm sau đó tận dụng nước chần để luộc rau nhé. Trắng sạch lại ngon mâm đầy."
   }
 ]
 
@@ -697,7 +756,7 @@ def seed():
             db.session.add(sr)
 
         db.session.commit()
-        print("Success! Seeded recipes, posts, and saved recipes.")
+        print("Success! Seeded comprehensive detailed recipes, posts, and saved recipes.")
 
 if __name__ == "__main__":
     seed()
