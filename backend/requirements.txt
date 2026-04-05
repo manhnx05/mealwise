@@ -4,3 +4,4 @@ Flask-CORS==4.0.1
 psycopg[binary]
 python-dotenv==1.0.1
 Flask-Migrate>=4.0.5
+requests>=2.31.0

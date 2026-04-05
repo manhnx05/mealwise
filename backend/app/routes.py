@@ -198,3 +198,37 @@ def unsave_recipe(recipe_id):
     db.session.delete(saved)
     db.session.commit()
     return jsonify({'message': 'Đã bỏ lưu'}), 200
+
+
+# ──────────────────────── INTEGRATIONS ────────────────────────
+@bp.route('/generate-meal-plan', methods=['POST'])
+def generate_meal_plan():
+    from .services.ai_service import invoke_gemini
+    data = request.json
+    try:
+        result = invoke_gemini(
+            prompt=data.get('prompt', ''),
+            json_schema=data.get('response_json_schema')
+        )
+        return jsonify(result), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@bp.route('/upload', methods=['POST'])
+def upload_file():
+    # Since Vercel Serverless doesn't have persistent file storage, 
+    # we return base64 Data URL to be stored in PostgreSQL Text column.
+    if 'file' not in request.files:
+        return jsonify({"error": "No file part"}), 400
+    file = request.files['file']
+    if file.filename == '':
+        return jsonify({"error": "No selected file"}), 400
+    
+    import base64
+    file_content = file.read()
+    b64_str = base64.b64encode(file_content).decode('utf-8')
+    mime_type = file.mimetype
+    data_url = f"data:{mime_type};base64,{b64_str}"
+    
+    return jsonify({"file_url": data_url}), 200
