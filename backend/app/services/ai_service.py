@@ -2,12 +2,25 @@ import os
 import requests
 import json
 
+def uppercase_types(obj):
+    if isinstance(obj, dict):
+        new_obj = {}
+        for k, v in obj.items():
+            if k == "type" and isinstance(v, str):
+                new_obj[k] = v.upper()
+            else:
+                new_obj[k] = uppercase_types(v)
+        return new_obj
+    elif isinstance(obj, list):
+        return [uppercase_types(x) for x in obj]
+    return obj
+
 def invoke_gemini(prompt: str, json_schema=None):
     api_key = os.getenv('GEMINI_API_KEY')
     if not api_key:
         raise ValueError("Backend missing GEMINI_API_KEY configuration.")
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -16,7 +29,7 @@ def invoke_gemini(prompt: str, json_schema=None):
 
     if json_schema:
         body["generationConfig"]["responseMimeType"] = "application/json"
-        body["generationConfig"]["responseSchema"] = json_schema
+        body["generationConfig"]["responseSchema"] = uppercase_types(json_schema)
 
     headers = {"Content-Type": "application/json"}
     

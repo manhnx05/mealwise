@@ -77,7 +77,12 @@ export default function MealPlanner() {
       queryClient.invalidateQueries({ queryKey: ['meal-plans'] });
     } catch (err: any) {
       console.error('Lỗi tạo thực đơn:', err);
-      alert('Không thể tạo thực đơn lúc này. Vui lòng kiểm tra API key và thử lại.');
+      const backendMessage = err.message || '';
+      if (backendMessage.includes('exceeded') || backendMessage.includes('RESOURCE_EXHAUSTED')) {
+         alert('API Key của bạn đã hết lượt giới hạn (Quota Exceeded). Vui lòng đổi API Key mới trong file .env và khởi động lại dịch vụ.');
+      } else {
+         alert(`Không thể tạo thực đơn lúc này. Chi tiết lỗi: ${backendMessage}\n\nVui lòng kiểm tra cấu hình.`);
+      }
     } finally {
       setIsGenerating(false);
     }
