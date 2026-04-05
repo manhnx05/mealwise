@@ -7,7 +7,7 @@ def invoke_gemini(prompt: str, json_schema=None):
     if not api_key:
         raise ValueError("Backend missing GEMINI_API_KEY configuration.")
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
