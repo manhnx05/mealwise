@@ -1,8 +1,10 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
+from flask_migrate import Migrate
 
 db = SQLAlchemy()
+migrate = Migrate()
 
 
 def create_app():
@@ -15,6 +17,7 @@ def create_app():
     # Init extensions
     CORS(app, resources={r"/api/*": {"origins": "*"}})
     db.init_app(app)
+    migrate.init_app(app, db)
 
     with app.app_context():
         from . import models  # noqa: F401 - import để SQLAlchemy nhận diện models

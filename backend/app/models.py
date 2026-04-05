@@ -9,8 +9,8 @@ class Recipe(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.Text)
-    image_url = db.Column(db.String(500))
-    video_url = db.Column(db.String(500))
+    image_url = db.Column(db.Text)
+    video_url = db.Column(db.Text)
     cook_time = db.Column(db.Integer)        # phút
     servings = db.Column(db.Integer)
     cost = db.Column(db.Numeric(12, 0))      # VNĐ
@@ -79,7 +79,7 @@ class CommunityPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.Text)
-    image_url = db.Column(db.String(500))
+    image_url = db.Column(db.Text)
     recipe_text = db.Column(db.Text)
     rating = db.Column(db.Numeric(3, 2), default=0)
     rating_count = db.Column(db.Integer, default=0)
