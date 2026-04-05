@@ -128,7 +128,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     
     if (shouldRedirect) {
       // Use the SDK's logout method which handles token cleanup and redirect
-      base44.auth.logout(window.location.href);
+      base44.auth.logout();
     } else {
       // Just remove the token without redirect
       base44.auth.logout();
@@ -137,7 +137,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const navigateToLogin = () => {
     // Use the SDK's redirectToLogin method
-    base44.auth.redirectToLogin(window.location.href);
+    base44.auth.redirectToLogin();
   };
 
   return (

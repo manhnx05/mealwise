@@ -36,7 +36,7 @@ export default function Community() {
     const file = e.target.files[0];
     if (!file) return;
     setUploading(true);
-    const { file_url } = await base44.integrations.Core.UploadFile({ file });
+    const { file_url } = (await base44.integrations.Core.UploadFile({ file })) as any;
     setNewPost({ ...newPost, image_url: file_url });
     setUploading(false);
   };
