@@ -3,6 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, ChefHat, X } from 'lucide-react';
+import { useAuth } from '@/lib/AuthContext';
+import { base44 } from '@/api/base44Client';
 
 const navLinks = [
   { label: 'Trang chủ', path: '/' },
@@ -17,6 +19,7 @@ const navLinks = [
 export default function Navbar() {
   const location = useLocation();
   const [open, setOpen] = useState(false);
+  const { user, navigateToLogin } = useAuth();
 
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-black/5">
@@ -46,12 +49,25 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex items-center gap-3">
-             <div className="flex items-center gap-2 px-3 py-1.5 hover:bg-slate-50 rounded-full cursor-pointer transition-colors">
-               <div className="w-7 h-7 rounded-full bg-[#2e8b57] flex items-center justify-center text-xs font-bold text-white shadow-sm ring-2 ring-white">
-                 M
+             {user ? (
+               <div 
+                 onClick={async () => {
+                   await base44.auth.logout();
+                   window.location.reload();
+                 }}
+                 title="Đăng xuất"
+                 className="flex items-center gap-2 px-3 py-1.5 hover:bg-slate-50 rounded-full cursor-pointer transition-colors"
+               >
+                 <div className="w-7 h-7 rounded-full bg-[#2e8b57] flex items-center justify-center text-xs font-bold text-white shadow-sm ring-2 ring-white">
+                   {user.email?.charAt(0).toUpperCase() || 'U'}
+                 </div>
+                 <span className="text-sm font-medium text-slate-700 truncate max-w-[120px]">{user.email}</span>
                </div>
-               <span className="text-sm font-medium text-slate-700 truncate w-24">Mạnh Nguy...</span>
-             </div>
+             ) : (
+               <Button onClick={() => navigateToLogin()} variant="default" className="bg-[#2e8b57] hover:bg-[#2e8b57]/90 rounded-full">
+                 Đăng nhập
+               </Button>
+             )}
           </div>
 
           <Sheet open={open} onOpenChange={setOpen}>
