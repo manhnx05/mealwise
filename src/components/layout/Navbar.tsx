@@ -82,13 +82,6 @@ export default function Navbar() {
                     {link.label}
                   </Link>
                 ))}
-                <Link
-                  to={'/seed-data'}
-                  onClick={() => setOpen(false)}
-                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors text-slate-500 hover:text-slate-900 hover:bg-slate-50 mt-4`}
-                >
-                  🌱 Seed Data
-                </Link>
               </div>
             </SheetContent>
           </Sheet>

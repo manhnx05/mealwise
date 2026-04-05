@@ -23,58 +23,64 @@ export default function MealPlanner() {
 
   const generatePlan = async () => {
     setIsGenerating(true);
-    const response = await base44.integrations.Core.InvokeLLM({
-      prompt: `Tạo thực đơn ăn uống cho 7 ngày (Thứ 2 đến Chủ nhật) cho gia đình Việt Nam. 
-      Mỗi ngày có bữa sáng, trưa, tối. Món ăn đơn giản, dễ nấu, tiết kiệm.
-      Cũng tạo danh sách đi chợ cho cả tuần.
-      Trả về JSON theo format:`,
-      response_json_schema: {
-        type: "object",
-        properties: {
-          meals: {
-            type: "array",
-            items: {
-              type: "object",
-              properties: {
-                day: { type: "string" },
-                breakfast: { type: "string" },
-                lunch: { type: "string" },
-                dinner: { type: "string" }
+    try {
+      const response = await base44.integrations.Core.InvokeLLM({
+        prompt: `Tạo thực đơn ăn uống cho 7 ngày (Thứ 2 đến Chủ nhật) cho gia đình Việt Nam. 
+        Mỗi ngày có bữa sáng, trưa, tối. Món ăn đơn giản, dễ nấu, tiết kiệm.
+        Cũng tạo danh sách đi chợ cho cả tuần.
+        Trả về JSON theo format:`,
+        response_json_schema: {
+          type: "object",
+          properties: {
+            meals: {
+              type: "array",
+              items: {
+                type: "object",
+                properties: {
+                  day: { type: "string" },
+                  breakfast: { type: "string" },
+                  lunch: { type: "string" },
+                  dinner: { type: "string" }
+                }
               }
-            }
-          },
-          shopping_list: {
-            type: "array",
-            items: {
-              type: "object",
-              properties: {
-                name: { type: "string" },
-                amount: { type: "string" }
+            },
+            shopping_list: {
+              type: "array",
+              items: {
+                type: "object",
+                properties: {
+                  name: { type: "string" },
+                  amount: { type: "string" }
+                }
               }
-            }
-          },
-          total_cost: { type: "number" }
+            },
+            total_cost: { type: "number" }
+          }
         }
+      });
+
+      const responseData = typeof response === 'string' ? JSON.parse(response) : response;
+
+      const planData = {
+        week_start: new Date().toISOString().split('T')[0],
+        meals: responseData.meals || [],
+        shopping_list: (responseData.shopping_list || []).map((item: any) => ({ ...item, checked: false })),
+        total_cost: responseData.total_cost || 0,
+      };
+
+      if (currentPlan) {
+        await base44.entities.MealPlan.update(currentPlan.id, planData);
+      } else {
+        await base44.entities.MealPlan.create(planData);
       }
-    });
 
-    const responseData = typeof response === 'string' ? JSON.parse(response) : response;
-
-    const planData = {
-      week_start: new Date().toISOString().split('T')[0],
-      meals: responseData.meals || [],
-      shopping_list: (responseData.shopping_list || []).map((item: any) => ({ ...item, checked: false })),
-      total_cost: responseData.total_cost || 0,
-    };
-
-    if (currentPlan) {
-      await base44.entities.MealPlan.update(currentPlan.id, planData);
-    } else {
-      await base44.entities.MealPlan.create(planData);
+      queryClient.invalidateQueries({ queryKey: ['meal-plans'] });
+    } catch (err: any) {
+      console.error('Lỗi tạo thực đơn:', err);
+      alert('Không thể tạo thực đơn lúc này. Vui lòng kiểm tra API key và thử lại.');
+    } finally {
+      setIsGenerating(false);
     }
-
-    queryClient.invalidateQueries({ queryKey: ['meal-plans'] });
-    setIsGenerating(false);
   };
 
   const toggleShoppingItem = async (index) => {

@@ -1,210 +1,128 @@
+import base64
 from flask import Blueprint, request, jsonify
-from . import db
-from .models import Recipe, MealPlan, CommunityPost, SavedRecipe
+from .services import recipe_service, meal_plan_service, community_service
+from .services.ai_service import invoke_gemini
 
 bp = Blueprint('api', __name__, url_prefix='/api')
 
 
-# ──────────────────────── HEALTH CHECK ────────────────────────
+# ── HEALTH CHECK ──────────────────────────────────────────────
 @bp.route('/ping', methods=['GET'])
 def ping():
     return jsonify({'status': 'ok', 'message': 'MealWise Backend đang hoạt động!'})
 
 
-# ──────────────────────── RECIPES ───────────────────────────
+# ── RECIPES ───────────────────────────────────────────────────
 @bp.route('/recipes', methods=['GET'])
 def get_recipes():
-    category = request.args.get('category')
-    search = request.args.get('search', '')
-    query = Recipe.query
-    if category:
-        query = query.filter_by(category=category)
-    if search:
-        query = query.filter(Recipe.title.ilike(f'%{search}%'))
-    recipes = query.order_by(Recipe.created_at.desc()).all()
+    recipes = recipe_service.get_all(
+        category=request.args.get('category'),
+        search=request.args.get('search', '')
+    )
     return jsonify([r.to_dict() for r in recipes])
 
 
 @bp.route('/recipes/<int:recipe_id>', methods=['GET'])
 def get_recipe(recipe_id):
-    recipe = Recipe.query.get_or_404(recipe_id)
-    return jsonify(recipe.to_dict())
+    return jsonify(recipe_service.get_by_id(recipe_id).to_dict())
 
 
 @bp.route('/recipes', methods=['POST'])
 def create_recipe():
-    data = request.json
-    recipe = Recipe(
-        title=data.get('title'),
-        description=data.get('description'),
-        image_url=data.get('image_url'),
-        video_url=data.get('video_url'),
-        cook_time=data.get('cook_time'),
-        servings=data.get('servings'),
-        cost=data.get('cost'),
-        calories=data.get('calories'),
-        protein=data.get('protein'),
-        fat=data.get('fat'),
-        fiber=data.get('fiber'),
-        carbs=data.get('carbs'),
-        category=data.get('category'),
-        ingredients=data.get('ingredients', []),
-        steps=data.get('steps', []),
-        tags=data.get('tags', []),
-    )
-    db.session.add(recipe)
-    db.session.commit()
+    recipe = recipe_service.create(request.json)
     return jsonify(recipe.to_dict()), 201
 
 
 @bp.route('/recipes/<int:recipe_id>', methods=['PUT'])
 def update_recipe(recipe_id):
-    recipe = Recipe.query.get_or_404(recipe_id)
-    data = request.json
-    for field in ['title', 'description', 'image_url', 'video_url', 'cook_time',
-                  'servings', 'cost', 'calories', 'protein', 'fat', 'fiber',
-                  'carbs', 'category', 'ingredients', 'steps', 'tags']:
-        if field in data:
-            setattr(recipe, field, data[field])
-    db.session.commit()
+    recipe = recipe_service.update(recipe_id, request.json)
     return jsonify(recipe.to_dict())
 
 
 @bp.route('/recipes/<int:recipe_id>', methods=['DELETE'])
 def delete_recipe(recipe_id):
-    recipe = Recipe.query.get_or_404(recipe_id)
-    db.session.delete(recipe)
-    db.session.commit()
+    recipe_service.delete(recipe_id)
     return jsonify({'message': 'Đã xoá công thức'}), 200
 
 
-# ──────────────────────── MEAL PLANS ────────────────────────
+# ── MEAL PLANS ────────────────────────────────────────────────
 @bp.route('/meal-plans', methods=['GET'])
 def get_meal_plans():
-    plans = MealPlan.query.order_by(MealPlan.created_at.desc()).all()
-    return jsonify([p.to_dict() for p in plans])
+    return jsonify([p.to_dict() for p in meal_plan_service.get_all()])
 
 
 @bp.route('/meal-plans/latest', methods=['GET'])
 def get_latest_plan():
-    plan = MealPlan.query.order_by(MealPlan.created_at.desc()).first()
-    if not plan:
-        return jsonify(None)
-    return jsonify(plan.to_dict())
+    plan = meal_plan_service.get_latest()
+    return jsonify(plan.to_dict() if plan else None)
 
 
 @bp.route('/meal-plans', methods=['POST'])
 def create_meal_plan():
-    data = request.json
-    plan = MealPlan(
-        week_start=data.get('week_start'),
-        meals=data.get('meals', []),
-        shopping_list=data.get('shopping_list', []),
-        total_cost=data.get('total_cost', 0),
-    )
-    db.session.add(plan)
-    db.session.commit()
+    plan = meal_plan_service.create(request.json)
     return jsonify(plan.to_dict()), 201
 
 
 @bp.route('/meal-plans/<int:plan_id>', methods=['PUT'])
 def update_meal_plan(plan_id):
-    plan = MealPlan.query.get_or_404(plan_id)
-    data = request.json
-    for field in ['week_start', 'meals', 'shopping_list', 'total_cost']:
-        if field in data:
-            setattr(plan, field, data[field])
-    db.session.commit()
+    plan = meal_plan_service.update(plan_id, request.json)
     return jsonify(plan.to_dict())
 
 
 @bp.route('/meal-plans/<int:plan_id>', methods=['DELETE'])
 def delete_meal_plan(plan_id):
-    plan = MealPlan.query.get_or_404(plan_id)
-    db.session.delete(plan)
-    db.session.commit()
+    meal_plan_service.delete(plan_id)
     return jsonify({'message': 'Đã xoá thực đơn'}), 200
 
 
-# ──────────────────────── COMMUNITY POSTS ────────────────────
+# ── COMMUNITY POSTS ───────────────────────────────────────────
 @bp.route('/community', methods=['GET'])
 def get_posts():
-    posts = CommunityPost.query.order_by(CommunityPost.created_at.desc()).all()
-    return jsonify([p.to_dict() for p in posts])
+    return jsonify([p.to_dict() for p in community_service.get_all_posts()])
 
 
 @bp.route('/community', methods=['POST'])
 def create_post():
-    data = request.json
-    post = CommunityPost(
-        title=data.get('title'),
-        description=data.get('description'),
-        image_url=data.get('image_url'),
-        recipe_text=data.get('recipe_text'),
-        author_name=data.get('author_name'),
-        rating=data.get('rating', 0),
-        rating_count=data.get('rating_count', 0),
-        comments=data.get('comments', []),
-    )
-    db.session.add(post)
-    db.session.commit()
+    post = community_service.create_post(request.json)
     return jsonify(post.to_dict()), 201
 
 
 @bp.route('/community/<int:post_id>', methods=['PUT'])
 def update_post(post_id):
-    post = CommunityPost.query.get_or_404(post_id)
-    data = request.json
-    for field in ['title', 'description', 'image_url', 'recipe_text',
-                  'author_name', 'rating', 'rating_count', 'comments']:
-        if field in data:
-            setattr(post, field, data[field])
-    db.session.commit()
+    post = community_service.update_post(post_id, request.json)
     return jsonify(post.to_dict())
 
 
 @bp.route('/community/<int:post_id>', methods=['DELETE'])
 def delete_post(post_id):
-    post = CommunityPost.query.get_or_404(post_id)
-    db.session.delete(post)
-    db.session.commit()
+    community_service.delete_post(post_id)
     return jsonify({'message': 'Đã xoá bài đăng'}), 200
 
 
-# ──────────────────────── SAVED RECIPES ─────────────────────
+# ── SAVED RECIPES ─────────────────────────────────────────────
 @bp.route('/saved-recipes', methods=['GET'])
 def get_saved():
-    saves = SavedRecipe.query.order_by(SavedRecipe.created_at.desc()).all()
-    return jsonify([s.to_dict() for s in saves])
+    return jsonify([s.to_dict() for s in community_service.get_saved()])
 
 
 @bp.route('/saved-recipes', methods=['POST'])
 def save_recipe():
-    data = request.json
-    recipe_id = data.get('recipe_id')
-    # Tránh lưu trùng
-    existing = SavedRecipe.query.filter_by(recipe_id=recipe_id).first()
-    if existing:
-        return jsonify({'message': 'Đã lưu rồi', 'data': existing.to_dict()}), 200
-    saved = SavedRecipe(recipe_id=recipe_id)
-    db.session.add(saved)
-    db.session.commit()
-    return jsonify(saved.to_dict()), 201
+    recipe_id = request.json.get('recipe_id')
+    saved, created = community_service.save_recipe(recipe_id)
+    msg = 'Đã lưu' if created else 'Đã lưu rồi'
+    return jsonify({'message': msg, 'data': saved.to_dict()}), 201 if created else 200
 
 
 @bp.route('/saved-recipes/<int:recipe_id>', methods=['DELETE'])
 def unsave_recipe(recipe_id):
-    saved = SavedRecipe.query.filter_by(recipe_id=recipe_id).first_or_404()
-    db.session.delete(saved)
-    db.session.commit()
+    community_service.unsave_recipe(recipe_id)
     return jsonify({'message': 'Đã bỏ lưu'}), 200
 
 
-# ──────────────────────── INTEGRATIONS ────────────────────────
+# ── AI & UPLOAD ───────────────────────────────────────────────
 @bp.route('/generate-meal-plan', methods=['POST'])
-def generate_meal_plan():
-    from .services.ai_service import invoke_gemini
-    data = request.json
+def generate_ai_meal_plan():
+    data = request.json or {}
     try:
         result = invoke_gemini(
             prompt=data.get('prompt', ''),
@@ -212,23 +130,18 @@ def generate_meal_plan():
         )
         return jsonify(result), 200
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return jsonify({'error': str(e)}), 500
 
 
 @bp.route('/upload', methods=['POST'])
 def upload_file():
-    # Since Vercel Serverless doesn't have persistent file storage, 
-    # we return base64 Data URL to be stored in PostgreSQL Text column.
     if 'file' not in request.files:
-        return jsonify({"error": "No file part"}), 400
+        return jsonify({'error': 'No file part'}), 400
     file = request.files['file']
     if file.filename == '':
-        return jsonify({"error": "No selected file"}), 400
-    
-    import base64
+        return jsonify({'error': 'No selected file'}), 400
+
     file_content = file.read()
     b64_str = base64.b64encode(file_content).decode('utf-8')
-    mime_type = file.mimetype
-    data_url = f"data:{mime_type};base64,{b64_str}"
-    
-    return jsonify({"file_url": data_url}), 200
+    data_url = f"data:{file.mimetype};base64,{b64_str}"
+    return jsonify({'file_url': data_url}), 200
