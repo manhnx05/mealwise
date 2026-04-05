@@ -11,6 +11,8 @@ import RecipeCard from '../components/recipes/RecipeCard';
 export default function SearchByIngredients() {
   const [ingredientInput, setIngredientInput] = useState('');
   const [selectedIngredients, setSelectedIngredients] = useState<string[]>([]);
+  const [maxBudget, setMaxBudget] = useState<number | ''>('');
+  const [maxTime, setMaxTime] = useState<number | ''>('');
 
   const { data: recipes = [], isLoading } = useQuery({
     queryKey: ['recipes'],
@@ -36,51 +38,82 @@ export default function SearchByIngredients() {
     }
   };
 
-  const filtered = recipes.filter(recipe => {
-    if (selectedIngredients.length === 0) return true;
-    
-    const recipeIngredients = recipe.ingredients?.map((ing: any) => 
-      typeof ing === 'string' ? ing.toLowerCase() : ing.name?.toLowerCase() || ''
-    ) || [];
-    
-    return selectedIngredients.every(selected => 
-      recipeIngredients.some((ing: string) => ing.includes(selected.toLowerCase()))
-    );
+  const filtered = recipes.filter((recipe: any) => {
+    if (selectedIngredients.length > 0) {
+      const recipeIngredients = recipe.ingredients?.map((ing: any) => 
+        typeof ing === 'string' ? ing.toLowerCase() : ing.name?.toLowerCase() || ''
+      ) || [];
+      
+      const hasAllIngredients = selectedIngredients.every(selected => 
+        recipeIngredients.some((ing: string) => ing.includes(selected.toLowerCase()))
+      );
+      if (!hasAllIngredients) return false;
+    }
+
+    if (maxBudget !== '' && recipe.cost > (maxBudget as number)) {
+      return false;
+    }
+
+    if (maxTime !== '' && recipe.cook_time > (maxTime as number)) {
+      return false;
+    }
+
+    return true;
   });
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
       <div className="mb-8">
         <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-2">
-          Tìm món theo nguyên liệu
+          Gợi ý món ăn thông minh
         </h1>
         <p className="text-muted-foreground">
-          Nhập nguyên liệu bạn có, chúng tôi sẽ gợi ý món ăn phù hợp
+          Quyết định ăn gì hôm nay dựa trên ngân sách, nguyên liệu có sẵn và thời gian nấu
         </p>
       </div>
 
       <div className="bg-card border rounded-xl p-6 mb-8">
-        <div className="flex gap-2 mb-4">
-          <div className="relative flex-1">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div className="flex gap-2">
+            <div className="relative flex-1">
+              <Input
+                placeholder="Nhập nguyên liệu (vd: thịt gà)"
+                value={ingredientInput}
+                onChange={(e) => setIngredientInput(e.target.value)}
+                onKeyPress={handleKeyPress}
+                className="rounded-full"
+              />
+            </div>
+            <Button 
+              onClick={handleAddIngredient}
+              className="rounded-full gap-2 shrink-0"
+              disabled={!ingredientInput.trim()}
+            >
+              <Plus className="w-4 h-4" /> Thêm
+            </Button>
+          </div>
+          <div>
             <Input
-              placeholder="Nhập nguyên liệu (ví dụ: thịt gà, cà chua...)"
-              value={ingredientInput}
-              onChange={(e) => setIngredientInput(e.target.value)}
-              onKeyPress={handleKeyPress}
+              type="number"
+              placeholder="Ngân sách tối đa (VNĐ)"
+              value={maxBudget}
+              onChange={(e) => setMaxBudget(e.target.value === '' ? '' : Number(e.target.value))}
               className="rounded-full"
             />
           </div>
-          <Button 
-            onClick={handleAddIngredient}
-            className="rounded-full gap-2"
-            disabled={!ingredientInput.trim()}
-          >
-            <Plus className="w-4 h-4" /> Thêm
-          </Button>
+          <div>
+            <Input
+              type="number"
+              placeholder="Thời gian tối đa (Phút)"
+              value={maxTime}
+              onChange={(e) => setMaxTime(e.target.value === '' ? '' : Number(e.target.value))}
+              className="rounded-full"
+            />
+          </div>
         </div>
 
         {selectedIngredients.length > 0 && (
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t">
             {selectedIngredients.map(ingredient => (
               <Badge 
                 key={ingredient} 
