@@ -29,3 +29,8 @@ dist-ssr
 
 .env
 .vite
+
+# Python/Flask
+backend/venv/
+__pycache__/
+*.pyc
